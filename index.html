@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MCAT Study</title>
+<meta name="theme-color" content="#f6f1e7">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="description" content="A daily MCAT quiz: two questions from each section every day, one passage set, and spaced review of what you miss.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="MCAT Study">
+<meta property="og:description" content="Eight MCAT questions a day, from all four sections.">
+<meta property="og:url" content="https://taziz05.github.io/mcat-study/">
+<meta property="og:image" content="https://taziz05.github.io/mcat-study/preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://taziz05.github.io/mcat-study/preview.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f1e7; --surface:#fffdf8; --surface-2:#efe8da; --ink:#1d2433; --muted:#6a6f7c; --line:#ddd4c3;
+  --good:#2f7d4f; --good-bg:#e3f1e7; --bad:#b23a32; --bad-bg:#f8e3e0;
+  --chemphys:#2f63b5; --cars:#7b4bb5; --biobio:#13805a; --psychsoc:#c25a1e;
+  --shadow:0 1px 2px rgba(30,30,40,.06),0 6px 24px rgba(30,30,40,.06);
+  --radius:16px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#14161c; --surface:#1c1f27; --surface-2:#252935; --ink:#ecebe6; --muted:#9aa0ad; --line:#323746;
+    --good:#5cc188; --good-bg:#1d3327; --bad:#ef7a70; --bad-bg:#3a2222;
+    --chemphys:#7aa7ff; --cars:#b892ff; --biobio:#4fcf98; --psychsoc:#ff9a5c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 28px rgba(0,0,0,.25);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#14161c; --surface:#1c1f27; --surface-2:#252935; --ink:#ecebe6; --muted:#9aa0ad; --line:#323746;
+  --good:#5cc188; --good-bg:#1d3327; --bad:#ef7a70; --bad-bg:#3a2222;
+  --chemphys:#7aa7ff; --cars:#b892ff; --biobio:#4fcf98; --psychsoc:#ff9a5c;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 28px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 "IBM Plex Sans",system-ui,sans-serif;-webkit-font-smoothing:antialiased;min-height:100vh}
+.wrap{max-width:720px;margin:0 auto;padding:20px 16px 96px}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}
+.brand{display:flex;align-items:center;gap:12px}
+.brand .logo{width:44px;height:44px;flex:none;border-radius:10px;box-shadow:0 0 0 1px var(--line)}
+.brand h1{font-family:Fraunces,Georgia,serif;font-weight:700;font-size:28px;margin:0;letter-spacing:-.01em}
+.brand p{margin:2px 0 0;color:var(--muted);font-size:14px}
+.streak{display:flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-weight:600;font-size:14px;white-space:nowrap}
+.streak .flame{font-size:16px}
+nav.tabs{display:flex;gap:4px;background:var(--surface-2);border-radius:12px;padding:4px;margin-bottom:18px}
+nav.tabs button{flex:1;border:0;background:transparent;color:var(--muted);font:500 14px "IBM Plex Sans",sans-serif;padding:9px 6px;border-radius:9px;cursor:pointer}
+nav.tabs button[aria-selected="true"]{background:var(--surface);color:var(--ink);box-shadow:var(--shadow)}
+nav.tabs .badge[hidden]{display:none}
+nav.tabs .badge{display:inline-block;min-width:18px;padding:0 5px;margin-left:4px;border-radius:9px;background:var(--bad);color:#fff;font-size:11px;line-height:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:22px}
+.steps{display:flex;gap:6px;margin-bottom:14px}
+.step{flex:1;height:6px;border-radius:3px;background:var(--surface-2)}
+.step.done{background:var(--c)}
+.step.current{background:var(--c);opacity:.45}
+.subj{display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--c)}
+.subj .dot{width:9px;height:9px;border-radius:50%;background:var(--c)}
+.topic{color:var(--muted);font-size:13px;margin-top:4px}
+.passage{margin:14px 0 4px;border:1px solid var(--line);border-left:4px solid var(--c);border-radius:12px;background:var(--surface-2);padding:2px 16px}
+.passage summary{cursor:pointer;font-weight:600;font-size:14px;padding:10px 0;list-style:none;display:flex;gap:8px;align-items:center}
+.passage summary::-webkit-details-marker{display:none}
+.passage summary::before{content:"▸";color:var(--c);transition:transform .15s}
+.passage[open] summary::before{transform:rotate(90deg)}
+.passage summary .pn{margin-left:auto;color:var(--muted);font-weight:500;font-size:13px}
+.passage .ptext p{margin:0 0 12px;font-size:15px;line-height:1.65}
+.ptable{overflow-x:auto;margin:4px 0 12px}
+.ptable table{border-collapse:collapse;font-size:14px;width:100%;background:var(--surface)}
+.ptable th,.ptable td{border:1px solid var(--line);padding:6px 10px;text-align:left;font-variant-numeric:tabular-nums}
+.ptable th{background:var(--surface);font-weight:600}
+.ptable .cap{color:var(--muted);font-size:13px;margin-top:6px}
+.excerpt{margin:14px 0 0;padding:12px 16px;border-left:4px solid var(--c);background:var(--surface-2);border-radius:0 12px 12px 0;font-size:15px;line-height:1.65}
+.question{font-family:Fraunces,Georgia,serif;font-weight:500;font-size:21px;line-height:1.38;margin:16px 0 18px}
+.choices{display:grid;gap:10px}
+.choice{display:flex;gap:12px;align-items:flex-start;text-align:left;width:100%;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);border-radius:12px;padding:12px 14px;font:inherit;cursor:pointer;transition:border-color .12s, background .12s, transform .05s}
+.choice:hover:not([disabled]){border-color:var(--c)}
+.choice:active:not([disabled]){transform:scale(.995)}
+.choice .key{flex:none;width:24px;height:24px;border-radius:7px;background:var(--surface-2);display:grid;place-items:center;font-size:12px;font-weight:600;color:var(--muted)}
+.choice[disabled]{cursor:default}
+.choice.right{border-color:var(--good);background:var(--good-bg)}
+.choice.right .key{background:var(--good);color:#fff}
+.choice.wrong{border-color:var(--bad);background:var(--bad-bg)}
+.choice.wrong .key{background:var(--bad);color:#fff}
+.choice.dim{opacity:.55}
+.feedback{margin-top:16px;padding:14px 16px;border-radius:12px;background:var(--surface-2)}
+.feedback .verdict{font-weight:600;margin-bottom:4px}
+.feedback .verdict.ok{color:var(--good)} .feedback .verdict.no{color:var(--bad)}
+.feedback .src{margin-top:8px;font-size:13px;color:var(--muted)}
+.actions{display:flex;gap:10px;justify-content:flex-end;margin-top:16px;flex-wrap:wrap}
+.btn{border:0;border-radius:11px;padding:11px 18px;font:600 15px "IBM Plex Sans",sans-serif;cursor:pointer;background:var(--ink);color:var(--bg)}
+.btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
+.btn.small{padding:7px 12px;font-size:13px}
+.btn:disabled{opacity:.4;cursor:default}
+.empty{text-align:center;padding:34px 18px}
+.empty h2{font-family:Fraunces,Georgia,serif;margin:0 0 6px;font-size:24px}
+.empty p{color:var(--muted);margin:0 auto;max-width:440px}
+.summary-grid{display:grid;gap:10px;margin:18px 0}
+.srow{display:flex;align-items:center;gap:12px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.srow .name{flex:1;font-weight:600}
+.srow .name small{display:block;font-weight:400;color:var(--muted);font-size:12px}
+.srow .res{font-weight:600}
+.srow .res.ok{color:var(--good)} .srow .res.no{color:var(--bad)} .srow .res.na{color:var(--muted);font-weight:500}
+.mark{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:700;font-size:12px;background:var(--c);flex:none}
+.section-title{font-family:Fraunces,Georgia,serif;font-size:20px;margin:26px 0 10px}
+.pick-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.pick{border:1.5px solid var(--line);border-radius:14px;padding:14px;background:var(--surface);text-align:left;cursor:pointer;font:inherit;color:var(--ink)}
+.pick:hover{border-color:var(--c)}
+.pick .n{color:var(--muted);font-size:13px}
+.pick.soon{opacity:.6}
+select{width:100%;padding:10px 12px;border-radius:10px;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);font:inherit}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px}
+.stat .v{font-family:Fraunces,Georgia,serif;font-size:28px;font-weight:700;line-height:1.1}
+.stat .l{color:var(--muted);font-size:13px}
+.bar{height:8px;border-radius:4px;background:var(--surface-2);overflow:hidden;margin-top:8px}
+.bar > span{display:block;height:100%;background:var(--c)}
+.cal{display:grid;grid-template-columns:repeat(14,minmax(0,1fr));gap:4px;margin-top:10px}
+.cal span{aspect-ratio:1;border-radius:4px;background:var(--surface-2)}
+.cal span.l1{background:color-mix(in srgb,var(--good) 35%,var(--surface-2))}
+.cal span.l2{background:color-mix(in srgb,var(--good) 65%,var(--surface-2))}
+.cal span.l3{background:var(--good)}
+.cal span.today{outline:2px solid var(--ink);outline-offset:1px}
+textarea{width:100%;min-height:90px;border-radius:10px;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);font:13px ui-monospace,Menlo,monospace;padding:10px;margin-top:8px}
+.muted{color:var(--muted)}
+.small{font-size:13px}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.filters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 10px}
+.filters .full{grid-column:1/-1}
+label.field{display:block;font-weight:600;font-size:13px;color:var(--muted);margin:14px 0 6px}
+footer{margin-top:28px;color:var(--muted);font-size:13px;text-align:center}
+footer .credit{display:inline-block;margin-top:8px;opacity:.85}
+footer button{background:none;border:0;color:inherit;text-decoration:underline;cursor:pointer;font:inherit}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:10px;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none}
+.toast.show{opacity:1}
+@media (max-width:480px){
+  .question{font-size:19px}
+  .card{padding:18px}
+  .passage{padding:2px 12px}
+  .stat .v{font-size:22px}
+  .filters{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <img class="logo" src="logo.png" alt="">
+      <div>
+      <h1>MCAT Study</h1>
+      <p id="dateLine"></p>
+      </div>
+    </div>
+    <div class="streak" title="Days in a row you finished your daily set"><span class="flame">🔥</span><span id="streakNum">0</span></div>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" data-tab="today" aria-selected="true">Today</button>
+    <button role="tab" data-tab="review">Review<span class="badge" id="reviewBadge" hidden></span></button>
+    <button role="tab" data-tab="practice">Practice</button>
+    <button role="tab" data-tab="stats">Stats</button>
+  </nav>
+
+  <main id="view"></main>
+
+  <footer>
+    <span id="bankLine"></span> · <button id="themeBtn">Theme</button> · <button id="syncBtn">Sync devices</button><br>
+    <span class="credit">Coded with Claude (Opus 5.5) by Anthropic</span>
+  </footer>
+</div>
+<div class="toast" id="toast"></div>
+
+<script src="questions.js"></script>
+<script>
+(() => {
+"use strict";
+const SUBJECTS = [
+  {key:"chemphys", name:"Chem/Phys", long:"Chemical and Physical Foundations", short:"C/P"},
+  {key:"cars",     name:"CARS",       long:"Critical Analysis and Reasoning Skills", short:"CARS"},
+  {key:"biobio",   name:"Bio/Biochem", long:"Biological and Biochemical Foundations", short:"B/B"},
+  {key:"psychsoc", name:"Psych/Soc",  long:"Psychological, Social, and Biological Foundations", short:"P/S"},
+];
+const BANK = window.QUESTION_BANK || {};
+const PASSAGES = window.PASSAGES || {};
+const LESSONS = window.LESSONS || {};
+// Daily: two questions per section. One section a day (rotating) gets its two from a passage.
+const SLOTS = SUBJECTS.flatMap(s => [1, 2].map(n => ({key:`${s.key}-${n}`, subject:s.key, n})));
+const PASSAGE_ROTATION = ["chemphys", "cars", "biobio", "psychsoc"];
+const BY_ID = {};
+for (const s of SUBJECTS) for (const q of (BANK[s.key]||[])) { q.subject = s.key; BY_ID[q.id] = q; }
+const PASSAGE_QS = {};
+for (const q of Object.values(BY_ID)) if (q.p) (PASSAGE_QS[q.p] = PASSAGE_QS[q.p] || []).push(q);
+for (const list of Object.values(PASSAGE_QS)) list.sort((a, b) => a.pi - b.pi);
+const STORE_KEY = "mcatStudy.v1";
+const REVIEW_STEPS = [1, 3, 7, 16]; // days; clears after the last step
+
+// ---------- storage ----------
+function blank(){ return {days:{}, log:{}, cat:{}, review:{}, theme:null}; }
+function load(){ try { return Object.assign(blank(), JSON.parse(localStorage.getItem(STORE_KEY)) || {}); } catch(e){ return blank(); } }
+let state = load();
+function save(){ try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch(e){} }
+
+// ---------- dates ----------
+function dkey(d=new Date()){ const z=n=>String(n).padStart(2,"0"); return `${d.getFullYear()}-${z(d.getMonth()+1)}-${z(d.getDate())}`; }
+function dayNum(key){ const [y,m,d]=key.split("-").map(Number); return Math.round(Date.UTC(y,m-1,d)/864e5); }
+function addDays(key,n){ const t=new Date(dayNum(key)*864e5 + n*864e5); return `${t.getUTCFullYear()}-${String(t.getUTCMonth()+1).padStart(2,"0")}-${String(t.getUTCDate()).padStart(2,"0")}`; }
+const TODAY = dkey();
+
+// ---------- seeded helpers ----------
+function hash(str){ let h=2166136261; for (let i=0;i<str.length;i++){ h^=str.charCodeAt(i); h=Math.imul(h,16777619);} return h>>>0; }
+function rng(seed){ let a=seed>>>0; return ()=>{ a|=0; a=a+0x6D2B79F5|0; let t=Math.imul(a^a>>>15,1|a); t=t+Math.imul(t^t>>>7,61|t)^t; return ((t^t>>>14)>>>0)/4294967296; }; }
+function shuffled(arr, seed){ const r=rng(seed), a=arr.slice(); for(let i=a.length-1;i>0;i--){const j=Math.floor(r()*(i+1)); [a[i],a[j]]=[a[j],a[i]];} return a; }
+function choicesFor(q, salt=""){ return shuffled([q.a, ...q.w], hash(q.id+salt)); }
+
+// ---------- daily selection ----------
+function seenInDaily(){ const s=new Set(); for (const d of Object.values(state.days)) for (const id of Object.values(d.q||{})) s.add(id); return s; }
+function sectionPassages(subject){ return Object.keys(PASSAGES).filter(p => PASSAGES[p].subject === subject && (PASSAGE_QS[p]||[]).length >= 2).sort(); }
+function passageSection(day){ return PASSAGE_ROTATION[((dayNum(day) % 4) + 4) % 4]; }
+function dayRec(day){ const r = state.days[day] = state.days[day] || {q:{}, r:{}}; r.q = r.q || {}; r.r = r.r || {}; return r; }
+
+function pickPassageSet(subject, day){
+  const rec = dayRec(day);
+  const ps = sectionPassages(subject);
+  if (!ps.length) return false;
+  const seen = seenInDaily();
+  const order = shuffled(ps, hash("passages:"+subject));
+  const start = dayNum(day) % order.length;
+  // Prefer a passage you have never had in a daily set, then one with any unseen questions
+  let pid = null;
+  for (let i=0;i<order.length && !pid;i++){ const p=order[(start+i)%order.length]; if (PASSAGE_QS[p].every(q=>!seen.has(q.id))) pid=p; }
+  for (let i=0;i<order.length && !pid;i++){ const p=order[(start+i)%order.length]; if (PASSAGE_QS[p].some(q=>!seen.has(q.id))) pid=p; }
+  pid = pid || order[start];
+  const qs = PASSAGE_QS[pid];
+  const fresh = qs.filter(q => !seen.has(q.id)), old = qs.filter(q => seen.has(q.id));
+  const two = [...fresh, ...old].slice(0, 2).sort((a,b) => a.pi - b.pi);
+  rec.q[`${subject}-1`] = two[0].id; rec.q[`${subject}-2`] = two[1].id;
+  save();
+  return true;
+}
+function pickStandalone(slot, day){
+  const rec = dayRec(day);
+  let pool = (BANK[slot.subject]||[]).filter(q => !q.p);
+  if (!pool.length) pool = BANK[slot.subject] || [];
+  if (!pool.length) return null;
+  const order = shuffled(pool.map(q=>q.id).sort(), hash("order:"+slot.subject));
+  const seen = seenInDaily();
+  const start = (dayNum(day) * 2 + slot.n - 1) % order.length;
+  let pick = null;
+  for (let i=0;i<order.length;i++){ const id=order[(start+i)%order.length]; if(!seen.has(id)){ pick=id; break; } }
+  if (!pick) {   // every question has been in a daily set: start over, avoiding today's other pick
+    const taken = new Set(Object.values(rec.q));
+    pick = order[start];
+    for (let i=0;i<order.length;i++){ const id=order[(start+i)%order.length]; if(!taken.has(id)){ pick=id; break; } }
+  }
+  rec.q[slot.key] = pick; save();
+  return BY_ID[pick];
+}
+function dailyQuestion(key, day=TODAY){
+  const rec = dayRec(day);
+  if (rec.q[key] && BY_ID[rec.q[key]]) return BY_ID[rec.q[key]];
+  const slot = SLOTS.find(x => x.key === key); if (!slot) return null;
+  if (slot.subject === passageSection(day) && pickPassageSet(slot.subject, day)) return BY_ID[rec.q[key]];
+  return pickStandalone(slot, day);
+}
+function todayRec(){ return dayRec(TODAY); }
+function activeSlots(){ return SLOTS.filter(s => (BANK[s.subject]||[]).length); }
+
+// ---------- recording answers ----------
+function record(q, correct, mode){
+  const L = state.log[q.subject] = state.log[q.subject] || {n:0, c:0};
+  L.n++; if (correct) L.c++;
+  const C = state.cat[q.c] = state.cat[q.c] || {n:0, c:0};
+  C.n++; if (correct) C.c++;
+  const rv = state.review[q.id];
+  if (!correct) state.review[q.id] = {step:0, due:addDays(TODAY, REVIEW_STEPS[0])};
+  else if (rv && mode === "review") {
+    const next = rv.step + 1;
+    if (next >= REVIEW_STEPS.length) delete state.review[q.id];
+    else state.review[q.id] = {step:next, due:addDays(TODAY, REVIEW_STEPS[next])};
+  }
+  save();
+}
+function dueReviews(){
+  const due = Object.entries(state.review).filter(([id,r]) => BY_ID[id] && r.due <= TODAY).map(([id]) => BY_ID[id]);
+  // keep questions from the same passage next to each other
+  return due.sort((a,b) => (a.p||a.id).localeCompare(b.p||b.id) || (a.pi||0) - (b.pi||0));
+}
+
+function streak(){
+  const done = d => { const r=state.days[d]; if (!r || !r.r) return false;
+    const keys = d === TODAY ? activeSlots().map(s => s.key) : Object.keys(r.q || {});
+    return keys.length > 0 && keys.every(k => k in r.r); };
+  let n=0, d=TODAY;
+  if (!done(d)) d = addDays(d,-1);
+  while (done(d)) { n++; d = addDays(d,-1); }
+  return n;
+}
+
+// ---------- UI helpers ----------
+const $ = s => document.querySelector(s);
+const view = $("#view");
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const subj = k => SUBJECTS.find(s => s.key === k);
+function toast(msg){ const t=$("#toast"); t.textContent=msg; t.classList.add("show"); clearTimeout(toast._t); toast._t=setTimeout(()=>t.classList.remove("show"),1800); }
+const paras = text => String(text).split(/\n\s*\n/).map(p => `<p>${esc(p.trim()).replace(/\n/g,"<br>")}</p>`).join("");
+
+function passageHtml(q){
+  const P = PASSAGES[q.p]; if (!P) return "";
+  const tbl = P.tbl ? `<div class="ptable"><table><thead><tr>${P.tbl[0].map(c=>`<th>${esc(c)}</th>`).join("")}</tr></thead><tbody>${P.tbl.slice(1).map(r=>`<tr>${r.map(c=>`<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table>${P.cap?`<div class="cap">${esc(P.cap)}</div>`:""}</div>` : "";
+  return `<details class="passage" open><summary>Passage · ${esc(P.title || "")}<span class="pn">Question ${q.pi+1} of ${P.n}</span></summary><div class="ptext">${paras(P.passage)}${tbl}</div></details>`;
+}
+
+function questionCard(q, {stepsHtml="", mode, onDone, answered=null, salt=""}){
+  const s = subj(q.subject);
+  const opts = choicesFor(q, salt);
+  const el = document.createElement("div");
+  el.className = "card";
+  el.style.setProperty("--c", `var(--${q.subject})`);
+  el.innerHTML = `${stepsHtml}
+    <div class="subj"><span class="dot"></span>${esc(s.name)}</div>
+    <div class="topic">${esc(q.L)}${q.T && q.c[0] !== "C" ? " · " + esc(q.T) : ""}</div>
+    ${q.p ? passageHtml(q) : ""}
+    ${q.x ? `<div class="excerpt">${paras(q.x)}</div>` : ""}
+    <div class="question">${esc(q.q)}</div>
+    <div class="choices">${opts.map((o,i)=>`<button class="choice" data-v="${esc(o)}"><span class="key">${"ABCD"[i]}</span><span>${esc(o)}</span></button>`).join("")}</div>
+    <div class="fb"></div>`;
+  const btns = [...el.querySelectorAll(".choice")];
+  function reveal(chosen){
+    const ok = chosen === q.a;
+    btns.forEach(b => { b.disabled = true; const v=b.dataset.v;
+      if (v===q.a) b.classList.add("right"); else if (v===chosen) b.classList.add("wrong"); else b.classList.add("dim"); });
+    el.querySelector(".fb").innerHTML = `<div class="feedback">
+      <div class="verdict ${ok?"ok":"no"}">${ok?"Correct.":"Not quite."}${ok?"":` The answer is “${esc(q.a)}”.`}</div>
+      <div>${esc(q.e)}</div>
+      ${q.s ? `<div class="src">${esc(q.s)}</div>` : ""}</div>
+      <div class="actions"></div>`;
+    return ok;
+  }
+  if (answered !== null) { reveal(answered); }
+  btns.forEach(b => b.addEventListener("click", () => {
+    const ok = reveal(b.dataset.v);
+    record(q, ok, mode);
+    onDone && onDone(ok, b.dataset.v, el.querySelector(".actions"));
+  }));
+  return el;
+}
+document.addEventListener("keydown", e => {
+  if (e.target.matches("input,textarea,select")) return;
+  const map = {"1":0,"2":1,"3":2,"4":3,"a":0,"b":1,"c":2,"d":3};
+  const btns = [...document.querySelectorAll(".choice:not([disabled])")];
+  if (e.key in map && btns[map[e.key]]) { btns[map[e.key]].click(); return; }
+  if (e.key === "Enter") { const n = document.querySelector(".actions .btn:not(.ghost)"); n && n.click(); }
+});
+// After answering, keep the explanation in view (passages can push it off screen)
+function showFeedback(card){ const fb = card.querySelector(".feedback"); fb && fb.scrollIntoView({behavior:"smooth", block:"nearest"}); }
+
+// ---------- views ----------
+let tab = "today";
+function setTab(t){ tab=t; document.querySelectorAll("nav.tabs button").forEach(b=>b.setAttribute("aria-selected", b.dataset.tab===t)); render(); window.scrollTo({top:0}); }
+document.querySelectorAll("nav.tabs button").forEach(b => b.addEventListener("click", () => setTab(b.dataset.tab)));
+
+function stepsBar(slots, rec, currentKey){
+  return `<div class="steps">${slots.map(s=>`<span class="step ${s.key in rec.r ? "done" : (s.key===currentKey?"current":"")}" style="--c:var(--${s.subject})"></span>`).join("")}</div>`;
+}
+function slotName(slot){
+  const s = subj(slot.subject);
+  return `${s.name} · ${slot.n} of 2`;
+}
+
+function renderToday(){
+  const slots = activeSlots();
+  const rec = todayRec();
+  if (!slots.length) { view.innerHTML = `<div class="card empty"><h2>No questions yet</h2><p>Add questions to get started.</p></div>`; return; }
+  const next = slots.find(s => !(s.key in rec.r));
+  if (!next) return renderSummary();
+  const q = dailyQuestion(next.key);
+  const card = questionCard(q, {mode:"daily", stepsHtml:stepsBar(slots, rec, next.key), onDone:(ok, chosen, actions)=>{
+    rec.r[next.key] = {ok, chosen}; save(); updateChrome();
+    const more = slots.find(s => !(s.key in rec.r));
+    actions.innerHTML = `<button class="btn">${more ? "Next: "+esc(slotName(more))+" →" : "See today’s results"}</button>`;
+    actions.querySelector(".btn").onclick = () => { renderToday(); window.scrollTo({top:0}); };
+    showFeedback(card);
+  }});
+  view.replaceChildren(card);
+}
+
+function renderSummary(){
+  const rec = todayRec();
+  const slots = activeSlots();
+  const got = Object.values(rec.r).filter(r=>r.ok).length, tot = Object.keys(rec.r).length;
+  const due = dueReviews().length;
+  const ps = passageSection(TODAY);
+  view.innerHTML = `<div class="card">
+    <div class="empty" style="padding:10px 0 0">
+      <h2>${got === tot ? "Clean sweep." : got >= tot/2 ? "Nice work today." : "Done for today."}</h2>
+      <p>${got} of ${tot} correct. Missed questions come back in Review tomorrow, then again 3, 7 and 16 days later.</p>
+    </div>
+    <div class="summary-grid">${SUBJECTS.filter(s => slots.some(x => x.subject === s.key)).map(s => {
+      const mine = slots.filter(x => x.subject === s.key);
+      const marks = mine.map(x => { const r = rec.r[x.key]; return r ? `<button class="btn ghost small" data-see="${x.key}" title="Revisit">${r.ok?"✓":"✗"} ${x.n}</button>` : `<span class="res na">—</span>`; }).join("");
+      return `<div class="srow" style="--c:var(--${s.key})"><span class="mark">${esc(s.short)}</span><span class="name">${esc(s.name)}${s.key===ps?"<small>Today’s passage</small>":""}</span>${marks}</div>`;
+    }).join("")}</div>
+    <div class="actions">
+      ${due ? `<button class="btn ghost" id="goReview">Review ${due} due</button>` : ""}
+      <button class="btn" id="goPractice">Keep practicing</button>
+    </div></div>`;
+  view.querySelectorAll("[data-see]").forEach(b => {
+    const r = rec.r[b.dataset.see]; b.style.color = r.ok ? "var(--good)" : "var(--bad)";
+    b.onclick = () => {
+      const k = b.dataset.see, q = dailyQuestion(k);
+      const card = questionCard(q, {mode:"view", answered: rec.r[k].chosen});
+      card.querySelector(".actions").innerHTML = `<button class="btn ghost">← Back</button>`;
+      card.querySelector(".actions .btn").onclick = () => { renderSummary(); window.scrollTo({top:0}); };
+      view.replaceChildren(card); window.scrollTo({top:0});
+    };
+  });
+  const gr = $("#goReview"); gr && (gr.onclick = () => setTab("review"));
+  $("#goPractice").onclick = () => setTab("practice");
+}
+
+function renderReview(){
+  const due = dueReviews();
+  if (!due.length) {
+    const upcoming = Object.values(state.review).length;
+    view.innerHTML = `<div class="card empty"><h2>Nothing due</h2><p>${upcoming ? `${upcoming} missed question${upcoming>1?"s are":" is"} scheduled for later.` : "Questions you miss will show up here for spaced review."}</p></div>`;
+    return;
+  }
+  const q = due[0];
+  const card = questionCard(q, {mode:"review", salt:TODAY, stepsHtml:`<div class="small muted" style="margin-bottom:10px">${due.length} due for review</div>`, onDone:(ok, chosen, actions)=>{
+    updateChrome();
+    actions.innerHTML = `<span class="small muted" style="margin-right:auto">${ok ? (state.review[q.id] ? "Next review in "+REVIEW_STEPS[state.review[q.id].step]+" days." : "Cleared from review.") : "You'll see this again tomorrow."}</span><button class="btn">Next →</button>`;
+    actions.querySelector(".btn").onclick = () => { renderReview(); window.scrollTo({top:0}); };
+    showFeedback(card);
+  }});
+  view.replaceChildren(card);
+}
+
+// ---------- practice ----------
+let practice = {subject:null, lesson:"all", topic:"all", format:"all", queue:[], stats:{n:0,c:0}};
+function practicePool(){
+  let qs = BANK[practice.subject] || [];
+  if (practice.lesson !== "all") qs = qs.filter(q => q.L === practice.lesson);
+  if (practice.topic !== "all") qs = qs.filter(q => q.T === practice.topic);
+  if (practice.format === "alone") qs = qs.filter(q => !q.p);
+  if (practice.format === "passage") qs = qs.filter(q => q.p);
+  return qs;
+}
+// Shuffle, but keep each passage's questions together and in order
+function practiceQueue(pool){
+  const units = [], byP = {};
+  for (const q of pool) {
+    if (!q.p) { units.push([q]); continue; }
+    if (!byP[q.p]) { byP[q.p] = []; units.push(byP[q.p]); }
+    byP[q.p].push(q);
+  }
+  return shuffled(units, Date.now()).flatMap(u => u.sort((a,b)=>(a.pi||0)-(b.pi||0)).map(q => q.id));
+}
+function lessonOptions(key){
+  const all = BANK[key], cnt = L => all.filter(q => q.L === L).length;
+  let html = `<option value="all">All categories (${all.length})</option>`, group = null;
+  for (const l of (LESSONS[key] || [])) {
+    if (l.g !== group) { if (group) html += `</optgroup>`; if (l.g) html += `<optgroup label="${esc(l.g)}">`; group = l.g; }
+    html += `<option value="${esc(l.L)}" ${l.L === practice.lesson ? "selected" : ""}>${esc(l.L)} (${cnt(l.L)})</option>`;
+  }
+  if (group) html += `</optgroup>`;
+  return html;
+}
+function topicOptions(key){
+  if (practice.lesson === "all") return "";
+  const l = (LESSONS[key] || []).find(x => x.L === practice.lesson);
+  if (!l || !l.topics.length) return "";
+  const qs = BANK[key].filter(q => q.L === practice.lesson);
+  const opt = (v, label, n) => `<option value="${esc(v)}" ${v === practice.topic ? "selected" : ""}>${esc(label)} (${n})</option>`;
+  return opt("all", "Entire category", qs.length) + l.topics.map(t => opt(t, t, qs.filter(q => q.T === t).length)).join("");
+}
+function renderPractice(){
+  const counts = s => (BANK[s.key]||[]).length;
+  const pcount = s => sectionPassages(s.key).length;
+  if (!practice.subject) {
+    view.innerHTML = `<div class="card"><div class="subj" style="--c:var(--ink)">Practice</div>
+      <p class="muted" style="margin:6px 0 14px">Unlimited questions. Pick a section, then narrow it to an AAMC content category, a topic, or passages only.</p>
+      <div class="pick-grid">${SUBJECTS.map(s=>`<button class="pick ${counts(s)?"":"soon"}" data-s="${s.key}" style="--c:var(--${s.key})" ${counts(s)?"":"disabled"}>
+        <div class="subj"><span class="dot"></span>${esc(s.name)}</div><div class="n">${counts(s) ? `${counts(s)} questions · ${pcount(s)} passages` : "Coming soon"}</div></button>`).join("")}</div></div>`;
+    view.querySelectorAll(".pick[data-s]").forEach(b => b.onclick = () => { practice = {subject:b.dataset.s, lesson:"all", topic:"all", format:"all", queue:[], stats:{n:0,c:0}}; renderPractice(); });
+    return;
+  }
+  const s = subj(practice.subject);
+  let pool = practicePool();
+  if (!pool.length) { practice.topic = "all"; practice.format = "all"; practice.queue = []; pool = practicePool(); }
+  if (!practice.queue.length) practice.queue = practiceQueue(pool);
+  const q = BY_ID[practice.queue[0]];
+  const topicHtml = topicOptions(s.key);
+  const fmt = (v, label) => `<option value="${v}" ${practice.format===v?"selected":""}>${label}</option>`;
+  const head = document.createElement("div");
+  head.className = "card"; head.style.marginBottom = "12px"; head.style.setProperty("--c", `var(--${s.key})`);
+  head.innerHTML = `<div class="row"><div class="subj" style="flex:1"><span class="dot"></span>${esc(s.name)} practice</div>
+    <span class="small muted">${practice.stats.c}/${practice.stats.n} this session</span>
+    <button class="btn ghost small" id="pBack">Change section</button></div>
+    <div class="filters">
+      <div class="full"><label class="field" for="pLesson">${s.key === "cars" ? "Skill" : "Content category"}</label><select id="pLesson">${lessonOptions(s.key)}</select></div>
+      ${topicHtml ? `<div><label class="field" for="pTopic">Topic</label><select id="pTopic">${topicHtml}</select></div>` : ""}
+      <div ${topicHtml ? "" : 'class="full"'}><label class="field" for="pFormat">Format</label><select id="pFormat">${fmt("all","Everything")}${fmt("alone","Standalone only")}${fmt("passage","Passages only")}</select></div>
+    </div>`;
+  const card = questionCard(q, {mode:"practice", salt:String(practice.stats.n), onDone:(ok, chosen, actions)=>{
+    practice.stats.n++; if (ok) practice.stats.c++;
+    practice.queue.shift(); updateChrome();
+    const nq = BY_ID[practice.queue[0]];
+    const same = nq && q.p && nq.p === q.p;
+    actions.innerHTML = `<button class="btn">${same ? "Next question on this passage →" : "Next →"}</button>`;
+    actions.querySelector(".btn").onclick = () => { renderPractice(); if (!same) window.scrollTo({top:0}); else { const qEl = document.querySelector(".question"); qEl && qEl.scrollIntoView({block:"center"}); } };
+    showFeedback(card);
+  }});
+  view.replaceChildren(head, card);
+  $("#pBack").onclick = () => { practice.subject = null; renderPractice(); };
+  $("#pLesson").onchange = e => { practice.lesson = e.target.value; practice.topic = "all"; practice.queue = []; renderPractice(); };
+  const pt = $("#pTopic"); if (pt) pt.onchange = e => { practice.topic = e.target.value; practice.queue = []; renderPractice(); };
+  $("#pFormat").onchange = e => { practice.format = e.target.value; practice.queue = []; renderPractice(); };
+}
+
+// ---------- stats ----------
+function catName(code){ for (const s of SUBJECTS) { const q = (BANK[s.key]||[]).find(q => q.c === code); if (q) return {L:q.L, subject:s.key}; } return null; }
+function renderStats(){
+  const st = streak();
+  const daysDone = Object.values(state.days).filter(d => d.r && Object.keys(d.r).length).length;
+  const totalN = Object.values(state.log).reduce((a,l)=>a+l.n,0), totalC = Object.values(state.log).reduce((a,l)=>a+l.c,0);
+  const cells = []; for (let i=27;i>=0;i--){ const d=addDays(TODAY,-i); const r=state.days[d]; const n=r&&r.r?Object.values(r.r).filter(x=>x.ok).length:0; const any=r&&r.r&&Object.keys(r.r).length;
+    cells.push(`<span title="${d}: ${any?n+" correct":"no activity"}" class="${any?(n>=6?"l3":n>=4?"l2":"l1"):""} ${d===TODAY?"today":""}"></span>`); }
+  const weak = Object.entries(state.cat).filter(([c,v]) => v.n >= 3 && catName(c)).map(([c,v]) => ({c, ...v, pct: v.c/v.n, ...catName(c)}))
+    .sort((a,b) => a.pct - b.pct || b.n - a.n).slice(0, 5);
+  view.innerHTML = `<div class="stats">
+      <div class="stat"><div class="v">${st}</div><div class="l">day streak</div></div>
+      <div class="stat"><div class="v">${daysDone}</div><div class="l">days studied</div></div>
+      <div class="stat"><div class="v">${totalN?Math.round(100*totalC/totalN):0}%</div><div class="l">overall accuracy</div></div>
+    </div>
+    <div class="card" style="margin-top:12px"><div class="row"><strong style="flex:1">Last 4 weeks</strong><span class="small muted">darker = more correct</span></div><div class="cal">${cells.join("")}</div></div>
+    <h2 class="section-title">By section</h2>
+    <div class="summary-grid" style="margin-top:0">${SUBJECTS.map(s=>{ const l=state.log[s.key]||{n:0,c:0}; const pct=l.n?Math.round(100*l.c/l.n):0; const pending=Object.keys(state.review).filter(id=>BY_ID[id]&&BY_ID[id].subject===s.key).length;
+      return `<div class="srow" style="--c:var(--${s.key});display:block"><div class="row"><span class="name">${esc(s.name)}</span><span class="small muted">${l.n ? `${l.c}/${l.n} correct · ${pending} in review` : ((BANK[s.key]||[]).length ? "No answers yet" : "Coming soon")}</span></div><div class="bar"><span style="width:${pct}%"></span></div></div>`; }).join("")}</div>
+    <h2 class="section-title">Weakest categories</h2>
+    ${weak.length ? `<div class="summary-grid" style="margin-top:0">${weak.map(w => `<div class="srow" style="--c:var(--${w.subject});display:block"><div class="row"><span class="name">${esc(w.L)}</span><span class="small muted">${w.c}/${w.n} correct</span><button class="btn ghost small" data-drill="${esc(w.subject)}|${esc(w.L)}">Practice</button></div><div class="bar"><span style="width:${Math.round(100*w.pct)}%"></span></div></div>`).join("")}</div>`
+      : `<p class="muted small">Answer at least 3 questions in a category to see it here.</p>`}`;
+  view.querySelectorAll("[data-drill]").forEach(b => b.onclick = () => {
+    const [sk, L] = b.dataset.drill.split("|");
+    practice = {subject:sk, lesson:L, topic:"all", format:"all", queue:[], stats:{n:0,c:0}};
+    setTab("practice");
+  });
+}
+
+function renderSync(){
+  const code = btoa(unescape(encodeURIComponent(JSON.stringify(state))));
+  view.innerHTML = `<div class="card"><div class="subj" style="--c:var(--ink)">Sync devices</div>
+    <p class="muted small" style="margin:6px 0 0">Progress is saved in this browser only. To move it to another device, copy this code there and paste it under “Load progress.”</p>
+    <textarea id="code" readonly>${code}</textarea>
+    <div class="actions" style="justify-content:flex-start"><button class="btn" id="copy">Copy code</button></div>
+    <h2 class="section-title" style="margin-top:18px">Load progress</h2>
+    <textarea id="paste" placeholder="Paste a code from your other device"></textarea>
+    <div class="actions" style="justify-content:flex-start"><button class="btn ghost" id="load">Replace this device’s progress</button><button class="btn ghost" id="back">Done</button></div></div>`;
+  $("#copy").onclick = async () => { try { await navigator.clipboard.writeText(code); toast("Copied"); } catch(e){ $("#code").select(); toast("Select and copy the code"); } };
+  $("#load").onclick = () => { try { const s = JSON.parse(decodeURIComponent(escape(atob($("#paste").value.trim())))); if (!s.days) throw 0; state = Object.assign(blank(), s); save(); updateChrome(); toast("Progress loaded"); setTab("today"); } catch(e){ toast("That code didn't work"); } };
+  $("#back").onclick = () => setTab(tab);
+}
+
+function render(){ ({today:renderToday, review:renderReview, practice:renderPractice, stats:renderStats})[tab](); }
+function updateChrome(){
+  $("#streakNum").textContent = streak();
+  const n = dueReviews().length, b = $("#reviewBadge");
+  b.hidden = !n; b.textContent = n;
+}
+function applyTheme(){ if (state.theme) document.documentElement.setAttribute("data-theme", state.theme); else document.documentElement.removeAttribute("data-theme"); }
+$("#themeBtn").onclick = () => { const order=[null,"light","dark"]; state.theme = order[(order.indexOf(state.theme)+1)%3]; save(); applyTheme(); toast("Theme: "+(state.theme||"system")); };
+$("#syncBtn").onclick = renderSync;
+
+$("#dateLine").textContent = new Date().toLocaleDateString(undefined,{weekday:"long", month:"long", day:"numeric"});
+$("#bankLine").textContent = SUBJECTS.map(s => `${s.name} ${(BANK[s.key]||[]).length}`).join(" · ");
+applyTheme(); updateChrome(); render();
+})();
+</script>
+</body>
+</html>
