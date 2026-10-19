@@ -95,6 +95,13 @@ nav.tabs .badge{display:inline-block;min-width:18px;padding:0 5px;margin-left:4p
 .feedback .verdict{font-weight:600;margin-bottom:4px}
 .feedback .verdict.ok{color:var(--good)} .feedback .verdict.no{color:var(--bad)}
 .feedback .src{margin-top:8px;font-size:13px;color:var(--muted)}
+.learn{margin-top:14px;padding-top:12px;border-top:1px solid var(--line);display:grid;gap:6px}
+.learn .lh{font-size:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
+.learn a{position:relative;display:block;padding:8px 30px 8px 12px;border-radius:9px;background:var(--surface);border:1px solid var(--line);color:var(--ink);text-decoration:none;font-size:14px;line-height:1.35}
+.learn a:hover{border-color:var(--c)}
+.learn .ls{display:block;font-size:12px;font-weight:600;color:var(--c)}
+.learn .ll{display:block;overflow-wrap:anywhere}
+.learn .la{position:absolute;right:11px;top:50%;transform:translateY(-50%);color:var(--muted)}
 .actions{display:flex;gap:10px;justify-content:flex-end;margin-top:16px;flex-wrap:wrap}
 .btn{border:0;border-radius:11px;padding:11px 18px;font:600 15px "IBM Plex Sans",sans-serif;cursor:pointer;background:var(--ink);color:var(--bg)}
 .btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
@@ -341,7 +348,9 @@ function questionCard(q, {stepsHtml="", mode, onDone, answered=null, salt=""}){
     el.querySelector(".fb").innerHTML = `<div class="feedback">
       <div class="verdict ${ok?"ok":"no"}">${ok?"Correct.":"Not quite."}${ok?"":` The answer is “${esc(q.a)}”.`}</div>
       <div>${esc(q.e)}</div>
-      ${q.s ? `<div class="src">${esc(q.s)}</div>` : ""}</div>
+      ${q.s ? `<div class="src">${esc(q.s)}</div>` : ""}
+      ${q.R && q.R.length ? `<div class="learn"><div class="lh">Learn more</div>${q.R.map(([src, label, url]) =>
+        `<a href="${esc(url)}" target="_blank" rel="noopener"><span class="ls">${esc(src)}</span><span class="ll">${esc(label)}</span><span class="la" aria-hidden="true">↗</span></a>`).join("")}</div>` : ""}</div>
       <div class="actions"></div>`;
     return ok;
   }

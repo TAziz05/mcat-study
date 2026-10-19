@@ -82,6 +82,39 @@ def check(q, where):
     assert q["a"] not in q["w"], f"{where}: answer repeated in wrong answers: {q['q']}"
 
 
+import sys, urllib.parse
+sys.path.insert(0, os.path.join(ROOT, "build"))
+from resources import BOOK_NAMES, OPENSTAX  # noqa: E402
+
+TOC = json.load(open(os.path.join(ROOT, "build", "openstax_toc.json"), encoding="utf-8"))
+SECTIONS = {(book, s[0]): (s[1], s[2]) for book, chs in TOC.items() for _, _, secs in chs for s in secs}
+
+
+def learn_more(sec, q):
+    """Links shown after answering: Wikipedia, an OpenStax section, and a Khan Academy search."""
+    links = []
+    wk = q.pop("wk", None)
+    assert wk, f"{sec}: question has no Wikipedia topic (wk): {q['q']}"
+    # Wikipedia's "go" search opens the article when the title exists and shows results otherwise,
+    # so the link never lands on an empty page.
+    links.append(["Wikipedia", wk, "https://en.wikipedia.org/w/index.php?" +
+                  urllib.parse.urlencode({"search": wk, "title": "Special:Search", "go": "Go"})])
+    ox = q.pop("ox", None)
+    if ox != "-":
+        ref = tuple(ox.split(" ", 1)) if ox else OPENSTAX.get((q["c"], q["t"]), "missing")
+        assert ref != "missing", f"{sec}: no OpenStax section for topic {q['c']} {q['t']}"
+        if ref:
+            book, num = ref
+            assert (book, num) in SECTIONS, f"{sec}: OpenStax {book} {num} doesn't exist: {q['q']}"
+            title, slug = SECTIONS[(book, num)]
+            links.append([f"OpenStax {BOOK_NAMES[book]}", f"{num} {title}",
+                          f"https://openstax.org/books/{book}/pages/{slug}"])
+    if sec != "cars":
+        links.append(["Khan Academy", f"Search “{wk}”",
+                      "https://www.khanacademy.org/search?" + urllib.parse.urlencode({"page_search_query": wk})])
+    q["R"] = links
+
+
 def annotate(sec, q):
     code = q["c"]
     q["L"] = CATEGORIES[code] if sec == "cars" else f"{code} · {CATEGORIES[code]}"
@@ -122,6 +155,7 @@ def main():
             assert q["id"] not in ids, f"{sec}: duplicate question: {q['q']}"
             ids.add(q["id"])
             annotate(sec, q)
+            learn_more(sec, q)
         order = sorted({q["c"] for q in qs}, key=lambda c: (c[0] == "C", int(re.match(r"\D*(\d+)", c).group(1)), c))
         lessons[sec] = []
         for c in order:

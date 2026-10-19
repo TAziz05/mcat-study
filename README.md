@@ -5,6 +5,7 @@ A daily MCAT quiz. Every day it gives eight questions: two from each section of 
 - **Today**: eight questions, two per section. They stay the same all day on a given device.
 - **Review**: missed questions come back 1, 3, 7 and 16 days later.
 - **Practice**: unlimited questions for any section. Narrow by AAMC content category (like 4B · Fluids and gas exchange) or CARS skill, then by topic, and choose standalone questions, passages or both.
+- **Learn more**: after you answer, each question links to a Wikipedia article on its concept, the matching section of a free OpenStax textbook, and a Khan Academy search.
 - **Stats**: streak, accuracy by section, and your weakest content categories with a one-tap practice button.
 - **Sync devices**: progress lives in each browser. Copy the sync code to move it to another device.
 
@@ -27,6 +28,8 @@ CARS standalones add a short excerpt with `"x": "..."`. A passage is:
  "tbl": [["Header", "Header"], ["Row", "Row"]], "cap": "Optional table caption",
  "qs": [ {"q": "...", "a": "...", "w": ["...", "...", "..."], "e": "..."} ]}
 ```
+
+Every question also needs `"wk"`, the Wikipedia article for its concept (the link uses Wikipedia's search, so it falls back to search results if the title is off). The OpenStax link comes from the question's category and topic in `build/resources.py`; set `"ox": "chemistry-2e 14.6"` on a question to point to a different section, or `"ox": "-"` for none. Section titles and page addresses come from `build/openstax_toc.json`, built from OpenStax's published book sources.
 
 After editing, rebuild `questions.js` with:
 

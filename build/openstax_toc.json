@@ -1,0 +1,7054 @@
+{
+"biology-2e": [
+[
+1,
+"The Study of Life",
+[
+[
+"1",
+"Introduction",
+"1-introduction"
+],
+[
+"1.1",
+"The Science of Biology",
+"1-1-the-science-of-biology"
+],
+[
+"1.2",
+"Themes and Concepts of Biology",
+"1-2-themes-and-concepts-of-biology"
+]
+]
+],
+[
+2,
+"The Chemical Foundation of Life",
+[
+[
+"2",
+"Introduction",
+"2-introduction"
+],
+[
+"2.1",
+"Atoms, Isotopes, Ions, and Molecules: The Building Blocks",
+"2-1-atoms-isotopes-ions-and-molecules-the-building-blocks"
+],
+[
+"2.2",
+"Water",
+"2-2-water"
+],
+[
+"2.3",
+"Carbon",
+"2-3-carbon"
+]
+]
+],
+[
+3,
+"Biological Macromolecules",
+[
+[
+"3",
+"Introduction",
+"3-introduction"
+],
+[
+"3.1",
+"Synthesis of Biological Macromolecules",
+"3-1-synthesis-of-biological-macromolecules"
+],
+[
+"3.2",
+"Carbohydrates",
+"3-2-carbohydrates"
+],
+[
+"3.3",
+"Lipids",
+"3-3-lipids"
+],
+[
+"3.4",
+"Proteins",
+"3-4-proteins"
+],
+[
+"3.5",
+"Nucleic Acids",
+"3-5-nucleic-acids"
+]
+]
+],
+[
+4,
+"Cell Structure",
+[
+[
+"4",
+"Introduction",
+"4-introduction"
+],
+[
+"4.1",
+"Studying Cells",
+"4-1-studying-cells"
+],
+[
+"4.2",
+"Prokaryotic Cells",
+"4-2-prokaryotic-cells"
+],
+[
+"4.3",
+"Eukaryotic Cells",
+"4-3-eukaryotic-cells"
+],
+[
+"4.4",
+"The Endomembrane System and Proteins",
+"4-4-the-endomembrane-system-and-proteins"
+],
+[
+"4.5",
+"The Cytoskeleton",
+"4-5-the-cytoskeleton"
+],
+[
+"4.6",
+"Connections between Cells and Cellular Activities",
+"4-6-connections-between-cells-and-cellular-activities"
+]
+]
+],
+[
+5,
+"Structure and Function of Plasma Membranes",
+[
+[
+"5",
+"Introduction",
+"5-introduction"
+],
+[
+"5.1",
+"Components and Structure",
+"5-1-components-and-structure"
+],
+[
+"5.2",
+"Passive Transport",
+"5-2-passive-transport"
+],
+[
+"5.3",
+"Active Transport",
+"5-3-active-transport"
+],
+[
+"5.4",
+"Bulk Transport",
+"5-4-bulk-transport"
+]
+]
+],
+[
+6,
+"Metabolism",
+[
+[
+"6",
+"Introduction",
+"6-introduction"
+],
+[
+"6.1",
+"Energy and Metabolism",
+"6-1-energy-and-metabolism"
+],
+[
+"6.2",
+"Potential, Kinetic, Free, and Activation Energy",
+"6-2-potential-kinetic-free-and-activation-energy"
+],
+[
+"6.3",
+"The Laws of Thermodynamics",
+"6-3-the-laws-of-thermodynamics"
+],
+[
+"6.4",
+"ATP: Adenosine Triphosphate",
+"6-4-atp-adenosine-triphosphate"
+],
+[
+"6.5",
+"Enzymes",
+"6-5-enzymes"
+]
+]
+],
+[
+7,
+"Cellular Respiration",
+[
+[
+"7",
+"Introduction",
+"7-introduction"
+],
+[
+"7.1",
+"Energy in Living Systems",
+"7-1-energy-in-living-systems"
+],
+[
+"7.2",
+"Glycolysis",
+"7-2-glycolysis"
+],
+[
+"7.3",
+"Oxidation of Pyruvate and the Citric Acid Cycle",
+"7-3-oxidation-of-pyruvate-and-the-citric-acid-cycle"
+],
+[
+"7.4",
+"Oxidative Phosphorylation",
+"7-4-oxidative-phosphorylation"
+],
+[
+"7.5",
+"Metabolism without Oxygen",
+"7-5-metabolism-without-oxygen"
+],
+[
+"7.6",
+"Connections of Carbohydrate, Protein, and Lipid Metabolic Pathways",
+"7-6-connections-of-carbohydrate-protein-and-lipid-metabolic-pathways"
+],
+[
+"7.7",
+"Regulation of Cellular Respiration",
+"7-7-regulation-of-cellular-respiration"
+]
+]
+],
+[
+8,
+"Photosynthesis",
+[
+[
+"8",
+"Introduction",
+"8-introduction"
+],
+[
+"8.1",
+"Overview of Photosynthesis",
+"8-1-overview-of-photosynthesis"
+],
+[
+"8.2",
+"The Light-Dependent Reactions of Photosynthesis",
+"8-2-the-light-dependent-reactions-of-photosynthesis"
+],
+[
+"8.3",
+"Using Light Energy to Make Organic Molecules",
+"8-3-using-light-energy-to-make-organic-molecules"
+]
+]
+],
+[
+9,
+"Cell Communication",
+[
+[
+"9",
+"Introduction",
+"9-introduction"
+],
+[
+"9.1",
+"Signaling Molecules and Cellular Receptors",
+"9-1-signaling-molecules-and-cellular-receptors"
+],
+[
+"9.2",
+"Propagation of the Signal",
+"9-2-propagation-of-the-signal"
+],
+[
+"9.3",
+"Response to the Signal",
+"9-3-response-to-the-signal"
+],
+[
+"9.4",
+"Signaling in Single-Celled Organisms",
+"9-4-signaling-in-single-celled-organisms"
+]
+]
+],
+[
+10,
+"Cell Reproduction",
+[
+[
+"10",
+"Introduction",
+"10-introduction"
+],
+[
+"10.1",
+"Cell Division",
+"10-1-cell-division"
+],
+[
+"10.2",
+"The Cell Cycle",
+"10-2-the-cell-cycle"
+],
+[
+"10.3",
+"Control of the Cell Cycle",
+"10-3-control-of-the-cell-cycle"
+],
+[
+"10.4",
+"Cancer and the Cell Cycle",
+"10-4-cancer-and-the-cell-cycle"
+],
+[
+"10.5",
+"Prokaryotic Cell Division",
+"10-5-prokaryotic-cell-division"
+]
+]
+],
+[
+11,
+"Meiosis and Sexual Reproduction",
+[
+[
+"11",
+"Introduction",
+"11-introduction"
+],
+[
+"11.1",
+"The Process of Meiosis",
+"11-1-the-process-of-meiosis"
+],
+[
+"11.2",
+"Sexual Reproduction",
+"11-2-sexual-reproduction"
+]
+]
+],
+[
+12,
+"Mendel's Experiments and Heredity",
+[
+[
+"12",
+"Introduction",
+"12-introduction"
+],
+[
+"12.1",
+"Mendel\u2019s Experiments and the Laws of Probability",
+"12-1-mendels-experiments-and-the-laws-of-probability"
+],
+[
+"12.2",
+"Characteristics and Traits",
+"12-2-characteristics-and-traits"
+],
+[
+"12.3",
+"Laws of Inheritance",
+"12-3-laws-of-inheritance"
+]
+]
+],
+[
+13,
+"Modern Understandings of Inheritance",
+[
+[
+"13",
+"Introduction",
+"13-introduction"
+],
+[
+"13.1",
+"Chromosomal Theory and Genetic Linkage",
+"13-1-chromosomal-theory-and-genetic-linkage"
+],
+[
+"13.2",
+"Chromosomal Basis of Inherited Disorders",
+"13-2-chromosomal-basis-of-inherited-disorders"
+]
+]
+],
+[
+14,
+"DNA Structure and Function",
+[
+[
+"14",
+"Introduction",
+"14-introduction"
+],
+[
+"14.1",
+"Historical Basis of Modern Understanding",
+"14-1-historical-basis-of-modern-understanding"
+],
+[
+"14.2",
+"DNA Structure and Sequencing",
+"14-2-dna-structure-and-sequencing"
+],
+[
+"14.3",
+"Basics of DNA Replication",
+"14-3-basics-of-dna-replication"
+],
+[
+"14.4",
+"DNA Replication in Prokaryotes",
+"14-4-dna-replication-in-prokaryotes"
+],
+[
+"14.5",
+"DNA Replication in Eukaryotes",
+"14-5-dna-replication-in-eukaryotes"
+],
+[
+"14.6",
+"DNA Repair",
+"14-6-dna-repair"
+]
+]
+],
+[
+15,
+"Genes and Proteins",
+[
+[
+"15",
+"Introduction",
+"15-introduction"
+],
+[
+"15.1",
+"The Genetic Code",
+"15-1-the-genetic-code"
+],
+[
+"15.2",
+"Prokaryotic Transcription",
+"15-2-prokaryotic-transcription"
+],
+[
+"15.3",
+"Eukaryotic Transcription",
+"15-3-eukaryotic-transcription"
+],
+[
+"15.4",
+"RNA Processing in Eukaryotes",
+"15-4-rna-processing-in-eukaryotes"
+],
+[
+"15.5",
+"Ribosomes and Protein Synthesis",
+"15-5-ribosomes-and-protein-synthesis"
+]
+]
+],
+[
+16,
+"Gene Expression",
+[
+[
+"16",
+"Introduction",
+"16-introduction"
+],
+[
+"16.1",
+"Regulation of Gene Expression",
+"16-1-regulation-of-gene-expression"
+],
+[
+"16.2",
+"Prokaryotic Gene Regulation",
+"16-2-prokaryotic-gene-regulation"
+],
+[
+"16.3",
+"Eukaryotic Epigenetic Gene Regulation",
+"16-3-eukaryotic-epigenetic-gene-regulation"
+],
+[
+"16.4",
+"Eukaryotic Transcription Gene Regulation",
+"16-4-eukaryotic-transcription-gene-regulation"
+],
+[
+"16.5",
+"Eukaryotic Post-transcriptional Gene Regulation",
+"16-5-eukaryotic-post-transcriptional-gene-regulation"
+],
+[
+"16.6",
+"Eukaryotic Translational and Post-translational Gene Regulation",
+"16-6-eukaryotic-translational-and-post-translational-gene-regulation"
+],
+[
+"16.7",
+"Cancer and Gene Regulation",
+"16-7-cancer-and-gene-regulation"
+]
+]
+],
+[
+17,
+"Biotechnology and Genomics",
+[
+[
+"17",
+"Introduction",
+"17-introduction"
+],
+[
+"17.1",
+"Biotechnology",
+"17-1-biotechnology"
+],
+[
+"17.2",
+"Mapping Genomes",
+"17-2-mapping-genomes"
+],
+[
+"17.3",
+"Whole-Genome Sequencing",
+"17-3-whole-genome-sequencing"
+],
+[
+"17.4",
+"Applying Genomics",
+"17-4-applying-genomics"
+],
+[
+"17.5",
+"Genomics and Proteomics",
+"17-5-genomics-and-proteomics"
+]
+]
+],
+[
+18,
+"Evolution and the Origin of Species",
+[
+[
+"18",
+"Introduction",
+"18-introduction"
+],
+[
+"18.1",
+"Understanding Evolution",
+"18-1-understanding-evolution"
+],
+[
+"18.2",
+"Formation of New Species",
+"18-2-formation-of-new-species"
+],
+[
+"18.3",
+"Reconnection and Speciation Rates",
+"18-3-reconnection-and-speciation-rates"
+]
+]
+],
+[
+19,
+"The Evolution of Populations",
+[
+[
+"19",
+"Introduction",
+"19-introduction"
+],
+[
+"19.1",
+"Population Evolution",
+"19-1-population-evolution"
+],
+[
+"19.2",
+"Population Genetics",
+"19-2-population-genetics"
+],
+[
+"19.3",
+"Adaptive Evolution",
+"19-3-adaptive-evolution"
+]
+]
+],
+[
+20,
+"Phylogenies and the History of Life",
+[
+[
+"20",
+"Introduction",
+"20-introduction"
+],
+[
+"20.1",
+"Organizing Life on Earth",
+"20-1-organizing-life-on-earth"
+],
+[
+"20.2",
+"Determining Evolutionary Relationships",
+"20-2-determining-evolutionary-relationships"
+],
+[
+"20.3",
+"Perspectives on the Phylogenetic Tree",
+"20-3-perspectives-on-the-phylogenetic-tree"
+]
+]
+],
+[
+21,
+"Viruses",
+[
+[
+"21",
+"Introduction",
+"21-introduction"
+],
+[
+"21.1",
+"Viral Evolution, Morphology, and Classification",
+"21-1-viral-evolution-morphology-and-classification"
+],
+[
+"21.2",
+"Virus Infections and Hosts",
+"21-2-virus-infections-and-hosts"
+],
+[
+"21.3",
+"Prevention and Treatment of Viral Infections",
+"21-3-prevention-and-treatment-of-viral-infections"
+],
+[
+"21.4",
+"Other Acellular Entities: Prions and Viroids",
+"21-4-other-acellular-entities-prions-and-viroids"
+]
+]
+],
+[
+22,
+"Prokaryotes: Bacteria and Archaea",
+[
+[
+"22",
+"Introduction",
+"22-introduction"
+],
+[
+"22.1",
+"Prokaryotic Diversity",
+"22-1-prokaryotic-diversity"
+],
+[
+"22.2",
+"Structure of Prokaryotes: Bacteria and Archaea",
+"22-2-structure-of-prokaryotes-bacteria-and-archaea"
+],
+[
+"22.3",
+"Prokaryotic Metabolism",
+"22-3-prokaryotic-metabolism"
+],
+[
+"22.4",
+"Bacterial Diseases in Humans",
+"22-4-bacterial-diseases-in-humans"
+],
+[
+"22.5",
+"Beneficial Prokaryotes",
+"22-5-beneficial-prokaryotes"
+]
+]
+],
+[
+23,
+"Protists",
+[
+[
+"23",
+"Introduction",
+"23-introduction"
+],
+[
+"23.1",
+"Eukaryotic Origins",
+"23-1-eukaryotic-origins"
+],
+[
+"23.2",
+"Characteristics of Protists",
+"23-2-characteristics-of-protists"
+],
+[
+"23.3",
+"Groups of Protists",
+"23-3-groups-of-protists"
+],
+[
+"23.4",
+"Ecology of Protists",
+"23-4-ecology-of-protists"
+]
+]
+],
+[
+24,
+"Fungi",
+[
+[
+"24",
+"Introduction",
+"24-introduction"
+],
+[
+"24.1",
+"Characteristics of Fungi",
+"24-1-characteristics-of-fungi"
+],
+[
+"24.2",
+"Classifications of Fungi",
+"24-2-classifications-of-fungi"
+],
+[
+"24.3",
+"Ecology of Fungi",
+"24-3-ecology-of-fungi"
+],
+[
+"24.4",
+"Fungal Parasites and Pathogens",
+"24-4-fungal-parasites-and-pathogens"
+],
+[
+"24.5",
+"Importance of Fungi in Human Life",
+"24-5-importance-of-fungi-in-human-life"
+]
+]
+],
+[
+25,
+"Seedless Plants",
+[
+[
+"25",
+"Introduction",
+"25-introduction"
+],
+[
+"25.1",
+"Early Plant Life",
+"25-1-early-plant-life"
+],
+[
+"25.2",
+"Green Algae: Precursors of Land Plants",
+"25-2-green-algae-precursors-of-land-plants"
+],
+[
+"25.3",
+"Bryophytes",
+"25-3-bryophytes"
+],
+[
+"25.4",
+"Seedless Vascular Plants",
+"25-4-seedless-vascular-plants"
+]
+]
+],
+[
+26,
+"Seed Plants",
+[
+[
+"26",
+"Introduction",
+"26-introduction"
+],
+[
+"26.1",
+"Evolution of Seed Plants",
+"26-1-evolution-of-seed-plants"
+],
+[
+"26.2",
+"Gymnosperms",
+"26-2-gymnosperms"
+],
+[
+"26.3",
+"Angiosperms",
+"26-3-angiosperms"
+],
+[
+"26.4",
+"The Role of Seed Plants",
+"26-4-the-role-of-seed-plants"
+]
+]
+],
+[
+27,
+"Introduction to Animal Diversity",
+[
+[
+"27",
+"Introduction",
+"27-introduction"
+],
+[
+"27.1",
+"Features of the Animal Kingdom",
+"27-1-features-of-the-animal-kingdom"
+],
+[
+"27.2",
+"Features Used to Classify Animals",
+"27-2-features-used-to-classify-animals"
+],
+[
+"27.3",
+"Animal Phylogeny",
+"27-3-animal-phylogeny"
+],
+[
+"27.4",
+"The Evolutionary History of the Animal Kingdom",
+"27-4-the-evolutionary-history-of-the-animal-kingdom"
+]
+]
+],
+[
+28,
+"Invertebrates",
+[
+[
+"28",
+"Introduction",
+"28-introduction"
+],
+[
+"28.1",
+"Phylum Porifera",
+"28-1-phylum-porifera"
+],
+[
+"28.2",
+"Phylum Cnidaria",
+"28-2-phylum-cnidaria"
+],
+[
+"28.3",
+"Superphylum Lophotrochozoa: Flatworms, Rotifers, and Nemerteans",
+"28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans"
+],
+[
+"28.4",
+"Superphylum Lophotrochozoa: Mollusks and Annelids",
+"28-4-superphylum-lophotrochozoa-mollusks-and-annelids"
+],
+[
+"28.5",
+"Superphylum Ecdysozoa: Nematodes and Tardigrades",
+"28-5-superphylum-ecdysozoa-nematodes-and-tardigrades"
+],
+[
+"28.6",
+"Superphylum Ecdysozoa: Arthropods",
+"28-6-superphylum-ecdysozoa-arthropods"
+],
+[
+"28.7",
+"Superphylum Deuterostomia",
+"28-7-superphylum-deuterostomia"
+]
+]
+],
+[
+29,
+"Vertebrates",
+[
+[
+"29",
+"Introduction",
+"29-introduction"
+],
+[
+"29.1",
+"Chordates",
+"29-1-chordates"
+],
+[
+"29.2",
+"Fishes",
+"29-2-fishes"
+],
+[
+"29.3",
+"Amphibians",
+"29-3-amphibians"
+],
+[
+"29.4",
+"Reptiles",
+"29-4-reptiles"
+],
+[
+"29.5",
+"Birds",
+"29-5-birds"
+],
+[
+"29.6",
+"Mammals",
+"29-6-mammals"
+],
+[
+"29.7",
+"The Evolution of Primates",
+"29-7-the-evolution-of-primates"
+]
+]
+],
+[
+30,
+"Plant Form and Physiology",
+[
+[
+"30",
+"Introduction",
+"30-introduction"
+],
+[
+"30.1",
+"The Plant Body",
+"30-1-the-plant-body"
+],
+[
+"30.2",
+"Stems",
+"30-2-stems"
+],
+[
+"30.3",
+"Roots",
+"30-3-roots"
+],
+[
+"30.4",
+"Leaves",
+"30-4-leaves"
+],
+[
+"30.5",
+"Transport of Water and Solutes in Plants",
+"30-5-transport-of-water-and-solutes-in-plants"
+],
+[
+"30.6",
+"Plant Sensory Systems and Responses",
+"30-6-plant-sensory-systems-and-responses"
+]
+]
+],
+[
+31,
+"Soil and Plant Nutrition",
+[
+[
+"31",
+"Introduction",
+"31-introduction"
+],
+[
+"31.1",
+"Nutritional Requirements of Plants",
+"31-1-nutritional-requirements-of-plants"
+],
+[
+"31.2",
+"The Soil",
+"31-2-the-soil"
+],
+[
+"31.3",
+"Nutritional Adaptations of Plants",
+"31-3-nutritional-adaptations-of-plants"
+]
+]
+],
+[
+32,
+"Plant Reproduction",
+[
+[
+"32",
+"Introduction",
+"32-introduction"
+],
+[
+"32.1",
+"Reproductive Development and Structure",
+"32-1-reproductive-development-and-structure"
+],
+[
+"32.2",
+"Pollination and Fertilization",
+"32-2-pollination-and-fertilization"
+],
+[
+"32.3",
+"Asexual Reproduction",
+"32-3-asexual-reproduction"
+]
+]
+],
+[
+33,
+"The Animal Body: Basic Form and Function",
+[
+[
+"33",
+"Introduction",
+"33-introduction"
+],
+[
+"33.1",
+"Animal Form and Function",
+"33-1-animal-form-and-function"
+],
+[
+"33.2",
+"Animal Primary Tissues",
+"33-2-animal-primary-tissues"
+],
+[
+"33.3",
+"Homeostasis",
+"33-3-homeostasis"
+]
+]
+],
+[
+34,
+"Animal Nutrition and the Digestive System",
+[
+[
+"34",
+"Introduction",
+"34-introduction"
+],
+[
+"34.1",
+"Digestive Systems",
+"34-1-digestive-systems"
+],
+[
+"34.2",
+"Nutrition and Energy Production",
+"34-2-nutrition-and-energy-production"
+],
+[
+"34.3",
+"Digestive System Processes",
+"34-3-digestive-system-processes"
+],
+[
+"34.4",
+"Digestive System Regulation",
+"34-4-digestive-system-regulation"
+]
+]
+],
+[
+35,
+"The Nervous System",
+[
+[
+"35",
+"Introduction",
+"35-introduction"
+],
+[
+"35.1",
+"Neurons and Glial Cells",
+"35-1-neurons-and-glial-cells"
+],
+[
+"35.2",
+"How Neurons Communicate",
+"35-2-how-neurons-communicate"
+],
+[
+"35.3",
+"The Central Nervous System",
+"35-3-the-central-nervous-system"
+],
+[
+"35.4",
+"The Peripheral Nervous System",
+"35-4-the-peripheral-nervous-system"
+],
+[
+"35.5",
+"Nervous System Disorders",
+"35-5-nervous-system-disorders"
+]
+]
+],
+[
+36,
+"Sensory Systems",
+[
+[
+"36",
+"Introduction",
+"36-introduction"
+],
+[
+"36.1",
+"Sensory Processes",
+"36-1-sensory-processes"
+],
+[
+"36.2",
+"Somatosensation",
+"36-2-somatosensation"
+],
+[
+"36.3",
+"Taste and Smell",
+"36-3-taste-and-smell"
+],
+[
+"36.4",
+"Hearing and Vestibular Sensation",
+"36-4-hearing-and-vestibular-sensation"
+],
+[
+"36.5",
+"Vision",
+"36-5-vision"
+]
+]
+],
+[
+37,
+"The Endocrine System",
+[
+[
+"37",
+"Introduction",
+"37-introduction"
+],
+[
+"37.1",
+"Types of Hormones",
+"37-1-types-of-hormones"
+],
+[
+"37.2",
+"How Hormones Work",
+"37-2-how-hormones-work"
+],
+[
+"37.3",
+"Regulation of Body Processes",
+"37-3-regulation-of-body-processes"
+],
+[
+"37.4",
+"Regulation of Hormone Production",
+"37-4-regulation-of-hormone-production"
+],
+[
+"37.5",
+"Endocrine Glands",
+"37-5-endocrine-glands"
+]
+]
+],
+[
+38,
+"The Musculoskeletal System",
+[
+[
+"38",
+"Introduction",
+"38-introduction"
+],
+[
+"38.1",
+"Types of Skeletal Systems",
+"38-1-types-of-skeletal-systems"
+],
+[
+"38.2",
+"Bone",
+"38-2-bone"
+],
+[
+"38.3",
+"Joints and Skeletal Movement",
+"38-3-joints-and-skeletal-movement"
+],
+[
+"38.4",
+"Muscle Contraction and Locomotion",
+"38-4-muscle-contraction-and-locomotion"
+]
+]
+],
+[
+39,
+"The Respiratory System",
+[
+[
+"39",
+"Introduction",
+"39-introduction"
+],
+[
+"39.1",
+"Systems of Gas Exchange",
+"39-1-systems-of-gas-exchange"
+],
+[
+"39.2",
+"Gas Exchange across Respiratory Surfaces",
+"39-2-gas-exchange-across-respiratory-surfaces"
+],
+[
+"39.3",
+"Breathing",
+"39-3-breathing"
+],
+[
+"39.4",
+"Transport of Gases in Human Bodily Fluids",
+"39-4-transport-of-gases-in-human-bodily-fluids"
+]
+]
+],
+[
+40,
+"The Circulatory System",
+[
+[
+"40",
+"Introduction",
+"40-introduction"
+],
+[
+"40.1",
+"Overview of the Circulatory System",
+"40-1-overview-of-the-circulatory-system"
+],
+[
+"40.2",
+"Components of the Blood",
+"40-2-components-of-the-blood"
+],
+[
+"40.3",
+"Mammalian Heart and Blood Vessels",
+"40-3-mammalian-heart-and-blood-vessels"
+],
+[
+"40.4",
+"Blood Flow and Blood Pressure Regulation",
+"40-4-blood-flow-and-blood-pressure-regulation"
+]
+]
+],
+[
+41,
+"Osmotic Regulation and Excretion",
+[
+[
+"41",
+"Introduction",
+"41-introduction"
+],
+[
+"41.1",
+"Osmoregulation and Osmotic Balance",
+"41-1-osmoregulation-and-osmotic-balance"
+],
+[
+"41.2",
+"The Kidneys and Osmoregulatory Organs",
+"41-2-the-kidneys-and-osmoregulatory-organs"
+],
+[
+"41.3",
+"Excretion Systems",
+"41-3-excretion-systems"
+],
+[
+"41.4",
+"Nitrogenous Wastes",
+"41-4-nitrogenous-wastes"
+],
+[
+"41.5",
+"Hormonal Control of Osmoregulatory Functions",
+"41-5-hormonal-control-of-osmoregulatory-functions"
+]
+]
+],
+[
+42,
+"The Immune System",
+[
+[
+"42",
+"Introduction",
+"42-introduction"
+],
+[
+"42.1",
+"Innate Immune Response",
+"42-1-innate-immune-response"
+],
+[
+"42.2",
+"Adaptive Immune Response",
+"42-2-adaptive-immune-response"
+],
+[
+"42.3",
+"Antibodies",
+"42-3-antibodies"
+],
+[
+"42.4",
+"Disruptions in the Immune System",
+"42-4-disruptions-in-the-immune-system"
+]
+]
+],
+[
+43,
+"Animal Reproduction and Development",
+[
+[
+"43",
+"Introduction",
+"43-introduction"
+],
+[
+"43.1",
+"Reproduction Methods",
+"43-1-reproduction-methods"
+],
+[
+"43.2",
+"Fertilization",
+"43-2-fertilization"
+],
+[
+"43.3",
+"Human Reproductive Anatomy and Gametogenesis",
+"43-3-human-reproductive-anatomy-and-gametogenesis"
+],
+[
+"43.4",
+"Hormonal Control of Human Reproduction",
+"43-4-hormonal-control-of-human-reproduction"
+],
+[
+"43.5",
+"Human Pregnancy and Birth",
+"43-5-human-pregnancy-and-birth"
+],
+[
+"43.6",
+"Fertilization and Early Embryonic Development",
+"43-6-fertilization-and-early-embryonic-development"
+],
+[
+"43.7",
+"Organogenesis and Vertebrate Axis Formation",
+"43-7-organogenesis-and-vertebrate-axis-formation"
+]
+]
+],
+[
+44,
+"Ecology and the Biosphere",
+[
+[
+"44",
+"Introduction",
+"44-introduction"
+],
+[
+"44.1",
+"The Scope of Ecology",
+"44-1-the-scope-of-ecology"
+],
+[
+"44.2",
+"Biogeography",
+"44-2-biogeography"
+],
+[
+"44.3",
+"Terrestrial Biomes",
+"44-3-terrestrial-biomes"
+],
+[
+"44.4",
+"Aquatic Biomes",
+"44-4-aquatic-biomes"
+],
+[
+"44.5",
+"Climate and the Effects of Global Climate Change",
+"44-5-climate-and-the-effects-of-global-climate-change"
+]
+]
+],
+[
+45,
+"Population and Community Ecology",
+[
+[
+"45",
+"Introduction",
+"45-introduction"
+],
+[
+"45.1",
+"Population Demography",
+"45-1-population-demography"
+],
+[
+"45.2",
+"Life Histories and Natural Selection",
+"45-2-life-histories-and-natural-selection"
+],
+[
+"45.3",
+"Environmental Limits to Population Growth",
+"45-3-environmental-limits-to-population-growth"
+],
+[
+"45.4",
+"Population Dynamics and Regulation",
+"45-4-population-dynamics-and-regulation"
+],
+[
+"45.5",
+"Human Population Growth",
+"45-5-human-population-growth"
+],
+[
+"45.6",
+"Community Ecology",
+"45-6-community-ecology"
+],
+[
+"45.7",
+"Behavioral Biology: Proximate and Ultimate Causes of Behavior",
+"45-7-behavioral-biology-proximate-and-ultimate-causes-of-behavior"
+]
+]
+],
+[
+46,
+"Ecosystems",
+[
+[
+"46",
+"Introduction",
+"46-introduction"
+],
+[
+"46.1",
+"Ecology of Ecosystems",
+"46-1-ecology-of-ecosystems"
+],
+[
+"46.2",
+"Energy Flow through Ecosystems",
+"46-2-energy-flow-through-ecosystems"
+],
+[
+"46.3",
+"Biogeochemical Cycles",
+"46-3-biogeochemical-cycles"
+]
+]
+],
+[
+47,
+"Conservation Biology and Biodiversity",
+[
+[
+"47",
+"Introduction",
+"47-introduction"
+],
+[
+"47.1",
+"The Biodiversity Crisis",
+"47-1-the-biodiversity-crisis"
+],
+[
+"47.2",
+"The Importance of Biodiversity to Human Life",
+"47-2-the-importance-of-biodiversity-to-human-life"
+],
+[
+"47.3",
+"Threats to Biodiversity",
+"47-3-threats-to-biodiversity"
+],
+[
+"47.4",
+"Preserving Biodiversity",
+"47-4-preserving-biodiversity"
+]
+]
+]
+],
+"chemistry-2e": [
+[
+1,
+"Essential Ideas",
+[
+[
+"1",
+"Introduction",
+"1-introduction"
+],
+[
+"1.1",
+"Chemistry in Context",
+"1-1-chemistry-in-context"
+],
+[
+"1.2",
+"Phases and Classification of Matter",
+"1-2-phases-and-classification-of-matter"
+],
+[
+"1.3",
+"Physical and Chemical Properties",
+"1-3-physical-and-chemical-properties"
+],
+[
+"1.4",
+"Measurements",
+"1-4-measurements"
+],
+[
+"1.5",
+"Measurement Uncertainty, Accuracy, and Precision",
+"1-5-measurement-uncertainty-accuracy-and-precision"
+],
+[
+"1.6",
+"Mathematical Treatment of Measurement Results",
+"1-6-mathematical-treatment-of-measurement-results"
+]
+]
+],
+[
+2,
+"Atoms, Molecules, and Ions",
+[
+[
+"2",
+"Introduction",
+"2-introduction"
+],
+[
+"2.1",
+"Early Ideas in Atomic Theory",
+"2-1-early-ideas-in-atomic-theory"
+],
+[
+"2.2",
+"Evolution of Atomic Theory",
+"2-2-evolution-of-atomic-theory"
+],
+[
+"2.3",
+"Atomic Structure and Symbolism",
+"2-3-atomic-structure-and-symbolism"
+],
+[
+"2.4",
+"Chemical Formulas",
+"2-4-chemical-formulas"
+],
+[
+"2.5",
+"The Periodic Table",
+"2-5-the-periodic-table"
+],
+[
+"2.6",
+"Ionic and Molecular Compounds",
+"2-6-ionic-and-molecular-compounds"
+],
+[
+"2.7",
+"Chemical Nomenclature",
+"2-7-chemical-nomenclature"
+]
+]
+],
+[
+3,
+"Composition of Substances and Solutions",
+[
+[
+"3",
+"Introduction",
+"3-introduction"
+],
+[
+"3.1",
+"Formula Mass and the Mole Concept",
+"3-1-formula-mass-and-the-mole-concept"
+],
+[
+"3.2",
+"Determining Empirical and Molecular Formulas",
+"3-2-determining-empirical-and-molecular-formulas"
+],
+[
+"3.3",
+"Molarity",
+"3-3-molarity"
+],
+[
+"3.4",
+"Other Units for Solution Concentrations",
+"3-4-other-units-for-solution-concentrations"
+]
+]
+],
+[
+4,
+"Stoichiometry of Chemical Reactions",
+[
+[
+"4",
+"Introduction",
+"4-introduction"
+],
+[
+"4.1",
+"Writing and Balancing Chemical Equations",
+"4-1-writing-and-balancing-chemical-equations"
+],
+[
+"4.2",
+"Classifying Chemical Reactions",
+"4-2-classifying-chemical-reactions"
+],
+[
+"4.3",
+"Reaction Stoichiometry",
+"4-3-reaction-stoichiometry"
+],
+[
+"4.4",
+"Reaction Yields",
+"4-4-reaction-yields"
+],
+[
+"4.5",
+"Quantitative Chemical Analysis",
+"4-5-quantitative-chemical-analysis"
+]
+]
+],
+[
+5,
+"Thermochemistry",
+[
+[
+"5",
+"Introduction",
+"5-introduction"
+],
+[
+"5.1",
+"Energy Basics",
+"5-1-energy-basics"
+],
+[
+"5.2",
+"Calorimetry",
+"5-2-calorimetry"
+],
+[
+"5.3",
+"Enthalpy",
+"5-3-enthalpy"
+]
+]
+],
+[
+6,
+"Electronic Structure and Periodic Properties of Elements",
+[
+[
+"6",
+"Introduction",
+"6-introduction"
+],
+[
+"6.1",
+"Electromagnetic Energy",
+"6-1-electromagnetic-energy"
+],
+[
+"6.2",
+"The Bohr Model",
+"6-2-the-bohr-model"
+],
+[
+"6.3",
+"Development of Quantum Theory",
+"6-3-development-of-quantum-theory"
+],
+[
+"6.4",
+"Electronic Structure of Atoms (Electron Configurations)",
+"6-4-electronic-structure-of-atoms-electron-configurations"
+],
+[
+"6.5",
+"Periodic Variations in Element Properties",
+"6-5-periodic-variations-in-element-properties"
+]
+]
+],
+[
+7,
+"Chemical Bonding and Molecular Geometry",
+[
+[
+"7",
+"Introduction",
+"7-introduction"
+],
+[
+"7.1",
+"Ionic Bonding",
+"7-1-ionic-bonding"
+],
+[
+"7.2",
+"Covalent Bonding",
+"7-2-covalent-bonding"
+],
+[
+"7.3",
+"Lewis Symbols and Structures",
+"7-3-lewis-symbols-and-structures"
+],
+[
+"7.4",
+"Formal Charges and Resonance",
+"7-4-formal-charges-and-resonance"
+],
+[
+"7.5",
+"Strengths of Ionic and Covalent Bonds",
+"7-5-strengths-of-ionic-and-covalent-bonds"
+],
+[
+"7.6",
+"Molecular Structure and Polarity",
+"7-6-molecular-structure-and-polarity"
+]
+]
+],
+[
+8,
+"Advanced Theories of Covalent Bonding",
+[
+[
+"8",
+"Introduction",
+"8-introduction"
+],
+[
+"8.1",
+"Valence Bond Theory",
+"8-1-valence-bond-theory"
+],
+[
+"8.2",
+"Hybrid Atomic Orbitals",
+"8-2-hybrid-atomic-orbitals"
+],
+[
+"8.3",
+"Multiple Bonds",
+"8-3-multiple-bonds"
+],
+[
+"8.4",
+"Molecular Orbital Theory",
+"8-4-molecular-orbital-theory"
+]
+]
+],
+[
+9,
+"Gases",
+[
+[
+"9",
+"Introduction",
+"9-introduction"
+],
+[
+"9.1",
+"Gas Pressure",
+"9-1-gas-pressure"
+],
+[
+"9.2",
+"Relating Pressure, Volume, Amount, and Temperature: The Ideal Gas Law",
+"9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law"
+],
+[
+"9.3",
+"Stoichiometry of Gaseous Substances, Mixtures, and Reactions",
+"9-3-stoichiometry-of-gaseous-substances-mixtures-and-reactions"
+],
+[
+"9.4",
+"Effusion and Diffusion of Gases",
+"9-4-effusion-and-diffusion-of-gases"
+],
+[
+"9.5",
+"The Kinetic-Molecular Theory",
+"9-5-the-kinetic-molecular-theory"
+],
+[
+"9.6",
+"Non-Ideal Gas Behavior",
+"9-6-non-ideal-gas-behavior"
+]
+]
+],
+[
+10,
+"Liquids and Solids",
+[
+[
+"10",
+"Introduction",
+"10-introduction"
+],
+[
+"10.1",
+"Intermolecular Forces",
+"10-1-intermolecular-forces"
+],
+[
+"10.2",
+"Properties of Liquids",
+"10-2-properties-of-liquids"
+],
+[
+"10.3",
+"Phase Transitions",
+"10-3-phase-transitions"
+],
+[
+"10.4",
+"Phase Diagrams",
+"10-4-phase-diagrams"
+],
+[
+"10.5",
+"The Solid State of Matter",
+"10-5-the-solid-state-of-matter"
+],
+[
+"10.6",
+"Lattice Structures in Crystalline Solids",
+"10-6-lattice-structures-in-crystalline-solids"
+]
+]
+],
+[
+11,
+"Solutions and Colloids",
+[
+[
+"11",
+"Introduction",
+"11-introduction"
+],
+[
+"11.1",
+"The Dissolution Process",
+"11-1-the-dissolution-process"
+],
+[
+"11.2",
+"Electrolytes",
+"11-2-electrolytes"
+],
+[
+"11.3",
+"Solubility",
+"11-3-solubility"
+],
+[
+"11.4",
+"Colligative Properties",
+"11-4-colligative-properties"
+],
+[
+"11.5",
+"Colloids",
+"11-5-colloids"
+]
+]
+],
+[
+12,
+"Kinetics",
+[
+[
+"12",
+"Introduction",
+"12-introduction"
+],
+[
+"12.1",
+"Chemical Reaction Rates",
+"12-1-chemical-reaction-rates"
+],
+[
+"12.2",
+"Factors Affecting Reaction Rates",
+"12-2-factors-affecting-reaction-rates"
+],
+[
+"12.3",
+"Rate Laws",
+"12-3-rate-laws"
+],
+[
+"12.4",
+"Integrated Rate Laws",
+"12-4-integrated-rate-laws"
+],
+[
+"12.5",
+"Collision Theory",
+"12-5-collision-theory"
+],
+[
+"12.6",
+"Reaction Mechanisms",
+"12-6-reaction-mechanisms"
+],
+[
+"12.7",
+"Catalysis",
+"12-7-catalysis"
+]
+]
+],
+[
+13,
+"Fundamental Equilibrium Concepts",
+[
+[
+"13",
+"Introduction",
+"13-introduction"
+],
+[
+"13.1",
+"Chemical Equilibria",
+"13-1-chemical-equilibria"
+],
+[
+"13.2",
+"Equilibrium Constants",
+"13-2-equilibrium-constants"
+],
+[
+"13.3",
+"Shifting Equilibria: Le Ch\u00e2telier\u2019s Principle",
+"13-3-shifting-equilibria-le-chateliers-principle"
+],
+[
+"13.4",
+"Equilibrium Calculations",
+"13-4-equilibrium-calculations"
+]
+]
+],
+[
+14,
+"Acid-Base Equilibria",
+[
+[
+"14",
+"Introduction",
+"14-introduction"
+],
+[
+"14.1",
+"Br\u00f8nsted-Lowry Acids and Bases",
+"14-1-bronsted-lowry-acids-and-bases"
+],
+[
+"14.2",
+"pH and pOH",
+"14-2-ph-and-poh"
+],
+[
+"14.3",
+"Relative Strengths of Acids and Bases",
+"14-3-relative-strengths-of-acids-and-bases"
+],
+[
+"14.4",
+"Hydrolysis of Salts",
+"14-4-hydrolysis-of-salts"
+],
+[
+"14.5",
+"Polyprotic Acids",
+"14-5-polyprotic-acids"
+],
+[
+"14.6",
+"Buffers",
+"14-6-buffers"
+],
+[
+"14.7",
+"Acid-Base Titrations",
+"14-7-acid-base-titrations"
+]
+]
+],
+[
+15,
+"Equilibria of Other Reaction Classes",
+[
+[
+"15",
+"Introduction",
+"15-introduction"
+],
+[
+"15.1",
+"Precipitation and Dissolution",
+"15-1-precipitation-and-dissolution"
+],
+[
+"15.2",
+"Lewis Acids and Bases",
+"15-2-lewis-acids-and-bases"
+],
+[
+"15.3",
+"Coupled Equilibria",
+"15-3-coupled-equilibria"
+]
+]
+],
+[
+16,
+"Thermodynamics",
+[
+[
+"16",
+"Introduction",
+"16-introduction"
+],
+[
+"16.1",
+"Spontaneity",
+"16-1-spontaneity"
+],
+[
+"16.2",
+"Entropy",
+"16-2-entropy"
+],
+[
+"16.3",
+"The Second and Third Laws of Thermodynamics",
+"16-3-the-second-and-third-laws-of-thermodynamics"
+],
+[
+"16.4",
+"Free Energy",
+"16-4-free-energy"
+]
+]
+],
+[
+17,
+"Electrochemistry",
+[
+[
+"17",
+"Introduction",
+"17-introduction"
+],
+[
+"17.1",
+"Review of Redox Chemistry",
+"17-1-review-of-redox-chemistry"
+],
+[
+"17.2",
+"Galvanic Cells",
+"17-2-galvanic-cells"
+],
+[
+"17.3",
+"Electrode and Cell Potentials",
+"17-3-electrode-and-cell-potentials"
+],
+[
+"17.4",
+"Potential, Free Energy, and Equilibrium",
+"17-4-potential-free-energy-and-equilibrium"
+],
+[
+"17.5",
+"Batteries and Fuel Cells",
+"17-5-batteries-and-fuel-cells"
+],
+[
+"17.6",
+"Corrosion",
+"17-6-corrosion"
+],
+[
+"17.7",
+"Electrolysis",
+"17-7-electrolysis"
+]
+]
+],
+[
+18,
+"Representative Metals, Metalloids, and Nonmetals",
+[
+[
+"18",
+"Introduction",
+"18-introduction"
+],
+[
+"18.1",
+"Periodicity",
+"18-1-periodicity"
+],
+[
+"18.2",
+"Occurrence and Preparation of the Representative Metals",
+"18-2-occurrence-and-preparation-of-the-representative-metals"
+],
+[
+"18.3",
+"Structure and General Properties of the Metalloids",
+"18-3-structure-and-general-properties-of-the-metalloids"
+],
+[
+"18.4",
+"Structure and General Properties of the Nonmetals",
+"18-4-structure-and-general-properties-of-the-nonmetals"
+],
+[
+"18.5",
+"Occurrence, Preparation, and Compounds of Hydrogen",
+"18-5-occurrence-preparation-and-compounds-of-hydrogen"
+],
+[
+"18.6",
+"Occurrence, Preparation, and Properties of Carbonates",
+"18-6-occurrence-preparation-and-properties-of-carbonates"
+],
+[
+"18.7",
+"Occurrence, Preparation, and Properties of Nitrogen",
+"18-7-occurrence-preparation-and-properties-of-nitrogen"
+],
+[
+"18.8",
+"Occurrence, Preparation, and Properties of Phosphorus",
+"18-8-occurrence-preparation-and-properties-of-phosphorus"
+],
+[
+"18.9",
+"Occurrence, Preparation, and Compounds of Oxygen",
+"18-9-occurrence-preparation-and-compounds-of-oxygen"
+],
+[
+"18.10",
+"Occurrence, Preparation, and Properties of Sulfur",
+"18-10-occurrence-preparation-and-properties-of-sulfur"
+],
+[
+"18.11",
+"Occurrence, Preparation, and Properties of Halogens",
+"18-11-occurrence-preparation-and-properties-of-halogens"
+],
+[
+"18.12",
+"Occurrence, Preparation, and Properties of the Noble Gases",
+"18-12-occurrence-preparation-and-properties-of-the-noble-gases"
+]
+]
+],
+[
+19,
+"Transition Metals and Coordination Chemistry",
+[
+[
+"19",
+"Introduction",
+"19-introduction"
+],
+[
+"19.1",
+"Occurrence, Preparation, and Properties of Transition Metals and Their Compounds",
+"19-1-occurrence-preparation-and-properties-of-transition-metals-and-their-compounds"
+],
+[
+"19.2",
+"Coordination Chemistry of Transition Metals",
+"19-2-coordination-chemistry-of-transition-metals"
+],
+[
+"19.3",
+"Spectroscopic and Magnetic Properties of Coordination Compounds",
+"19-3-spectroscopic-and-magnetic-properties-of-coordination-compounds"
+]
+]
+],
+[
+20,
+"Organic Chemistry",
+[
+[
+"20",
+"Introduction",
+"20-introduction"
+],
+[
+"20.1",
+"Hydrocarbons",
+"20-1-hydrocarbons"
+],
+[
+"20.2",
+"Alcohols and Ethers",
+"20-2-alcohols-and-ethers"
+],
+[
+"20.3",
+"Aldehydes, Ketones, Carboxylic Acids, and Esters",
+"20-3-aldehydes-ketones-carboxylic-acids-and-esters"
+],
+[
+"20.4",
+"Amines and Amides",
+"20-4-amines-and-amides"
+]
+]
+],
+[
+21,
+"Nuclear Chemistry",
+[
+[
+"21",
+"Introduction",
+"21-introduction"
+],
+[
+"21.1",
+"Nuclear Structure and Stability",
+"21-1-nuclear-structure-and-stability"
+],
+[
+"21.2",
+"Nuclear Equations",
+"21-2-nuclear-equations"
+],
+[
+"21.3",
+"Radioactive Decay",
+"21-3-radioactive-decay"
+],
+[
+"21.4",
+"Transmutation and Nuclear Energy",
+"21-4-transmutation-and-nuclear-energy"
+],
+[
+"21.5",
+"Uses of Radioisotopes",
+"21-5-uses-of-radioisotopes"
+],
+[
+"21.6",
+"Biological Effects of Radiation",
+"21-6-biological-effects-of-radiation"
+]
+]
+]
+],
+"college-physics-2e": [
+[
+1,
+"Introduction: The Nature of Science and Physics",
+[
+[
+"1",
+"Introduction to Science and the Realm of Physics, Physical Quantities, and Units",
+"1-introduction"
+],
+[
+"1.1",
+"Physics: An Introduction",
+"1-1-physics-an-introduction"
+],
+[
+"1.2",
+"Physical Quantities and Units",
+"1-2-physical-quantities-and-units"
+],
+[
+"1.3",
+"Accuracy, Precision, and Significant Figures",
+"1-3-accuracy-precision-and-significant-figures"
+],
+[
+"1.4",
+"Approximation",
+"1-4-approximation"
+]
+]
+],
+[
+2,
+"Kinematics",
+[
+[
+"2",
+"Introduction to One-Dimensional Kinematics",
+"2-introduction"
+],
+[
+"2.1",
+"Displacement",
+"2-1-displacement"
+],
+[
+"2.2",
+"Vectors, Scalars, and Coordinate Systems",
+"2-2-vectors-scalars-and-coordinate-systems"
+],
+[
+"2.3",
+"Time, Velocity, and Speed",
+"2-3-time-velocity-and-speed"
+],
+[
+"2.4",
+"Acceleration",
+"2-4-acceleration"
+],
+[
+"2.5",
+"Motion Equations for Constant Acceleration in One Dimension",
+"2-5-motion-equations-for-constant-acceleration-in-one-dimension"
+],
+[
+"2.6",
+"Problem-Solving Basics for One-Dimensional Kinematics",
+"2-6-problem-solving-basics-for-one-dimensional-kinematics"
+],
+[
+"2.7",
+"Falling Objects",
+"2-7-falling-objects"
+],
+[
+"2.8",
+"Graphical Analysis of One-Dimensional Motion",
+"2-8-graphical-analysis-of-one-dimensional-motion"
+]
+]
+],
+[
+3,
+"Two-Dimensional Kinematics",
+[
+[
+"3",
+"Introduction to Two-Dimensional Kinematics",
+"3-introduction"
+],
+[
+"3.1",
+"Kinematics in Two Dimensions: An Introduction",
+"3-1-kinematics-in-two-dimensions-an-introduction"
+],
+[
+"3.2",
+"Vector Addition and Subtraction: Graphical Methods",
+"3-2-vector-addition-and-subtraction-graphical-methods"
+],
+[
+"3.3",
+"Vector Addition and Subtraction: Analytical Methods",
+"3-3-vector-addition-and-subtraction-analytical-methods"
+],
+[
+"3.4",
+"Projectile Motion",
+"3-4-projectile-motion"
+],
+[
+"3.5",
+"Addition of Velocities",
+"3-5-addition-of-velocities"
+]
+]
+],
+[
+4,
+"Dynamics: Force and Newton's Laws of Motion",
+[
+[
+"4",
+"Introduction to Dynamics: Newton\u2019s Laws of Motion",
+"4-introduction"
+],
+[
+"4.1",
+"Development of Force Concept",
+"4-1-development-of-force-concept"
+],
+[
+"4.2",
+"Newton\u2019s First Law of Motion: Inertia",
+"4-2-newtons-first-law-of-motion-inertia"
+],
+[
+"4.3",
+"Newton\u2019s Second Law of Motion: Concept of a System",
+"4-3-newtons-second-law-of-motion-concept-of-a-system"
+],
+[
+"4.4",
+"Newton\u2019s Third Law of Motion: Symmetry in Forces",
+"4-4-newtons-third-law-of-motion-symmetry-in-forces"
+],
+[
+"4.5",
+"Normal, Tension, and Other Examples of Forces",
+"4-5-normal-tension-and-other-examples-of-forces"
+],
+[
+"4.6",
+"Problem-Solving Strategies",
+"4-6-problem-solving-strategies"
+],
+[
+"4.7",
+"Further Applications of Newton\u2019s Laws of Motion",
+"4-7-further-applications-of-newtons-laws-of-motion"
+],
+[
+"4.8",
+"Extended Topic: The Four Basic Forces\u2014An Introduction",
+"4-8-extended-topic-the-four-basic-forces-an-introduction"
+]
+]
+],
+[
+5,
+"Further Applications of Newton's Laws: Friction, Drag, and Elasticity",
+[
+[
+"5",
+"Introduction: Further Applications of Newton\u2019s Laws",
+"5-introduction"
+],
+[
+"5.1",
+"Friction",
+"5-1-friction"
+],
+[
+"5.2",
+"Drag Forces",
+"5-2-drag-forces"
+],
+[
+"5.3",
+"Elasticity: Stress and Strain",
+"5-3-elasticity-stress-and-strain"
+]
+]
+],
+[
+6,
+"Uniform Circular Motion and Gravitation",
+[
+[
+"6",
+"Introduction to Uniform Circular Motion and Gravitation",
+"6-introduction"
+],
+[
+"6.1",
+"Rotation Angle and Angular Velocity",
+"6-1-rotation-angle-and-angular-velocity"
+],
+[
+"6.2",
+"Centripetal Acceleration",
+"6-2-centripetal-acceleration"
+],
+[
+"6.3",
+"Centripetal Force",
+"6-3-centripetal-force"
+],
+[
+"6.4",
+"Fictitious Forces and Non-inertial Frames: The Coriolis Force",
+"6-4-fictitious-forces-and-non-inertial-frames-the-coriolis-force"
+],
+[
+"6.5",
+"Newton\u2019s Universal Law of Gravitation",
+"6-5-newtons-universal-law-of-gravitation"
+],
+[
+"6.6",
+"Satellites and Kepler\u2019s Laws: An Argument for Simplicity",
+"6-6-satellites-and-keplers-laws-an-argument-for-simplicity"
+]
+]
+],
+[
+7,
+"Work, Energy, and Energy Resources",
+[
+[
+"7",
+"Introduction to Work, Energy, and Energy Resources",
+"7-introduction"
+],
+[
+"7.1",
+"Work: The Scientific Definition",
+"7-1-work-the-scientific-definition"
+],
+[
+"7.2",
+"Kinetic Energy and the Work-Energy Theorem",
+"7-2-kinetic-energy-and-the-work-energy-theorem"
+],
+[
+"7.3",
+"Gravitational Potential Energy",
+"7-3-gravitational-potential-energy"
+],
+[
+"7.4",
+"Conservative Forces and Potential Energy",
+"7-4-conservative-forces-and-potential-energy"
+],
+[
+"7.5",
+"Nonconservative Forces",
+"7-5-nonconservative-forces"
+],
+[
+"7.6",
+"Conservation of Energy",
+"7-6-conservation-of-energy"
+],
+[
+"7.7",
+"Power",
+"7-7-power"
+],
+[
+"7.8",
+"Work, Energy, and Power in Humans",
+"7-8-work-energy-and-power-in-humans"
+],
+[
+"7.9",
+"World Energy Use",
+"7-9-world-energy-use"
+]
+]
+],
+[
+8,
+"Linear Momentum and Collisions",
+[
+[
+"8",
+"Introduction to Linear Momentum and Collisions",
+"8-introduction"
+],
+[
+"8.1",
+"Linear Momentum and Force",
+"8-1-linear-momentum-and-force"
+],
+[
+"8.2",
+"Impulse",
+"8-2-impulse"
+],
+[
+"8.3",
+"Conservation of Momentum",
+"8-3-conservation-of-momentum"
+],
+[
+"8.4",
+"Elastic Collisions in One Dimension",
+"8-4-elastic-collisions-in-one-dimension"
+],
+[
+"8.5",
+"Inelastic Collisions in One Dimension",
+"8-5-inelastic-collisions-in-one-dimension"
+],
+[
+"8.6",
+"Collisions of Point Masses in Two Dimensions",
+"8-6-collisions-of-point-masses-in-two-dimensions"
+],
+[
+"8.7",
+"Introduction to Rocket Propulsion",
+"8-7-introduction-to-rocket-propulsion"
+]
+]
+],
+[
+9,
+"Statics and Torque",
+[
+[
+"9",
+"Introduction to Statics and Torque",
+"9-introduction"
+],
+[
+"9.1",
+"The First Condition for Equilibrium",
+"9-1-the-first-condition-for-equilibrium"
+],
+[
+"9.2",
+"The Second Condition for Equilibrium",
+"9-2-the-second-condition-for-equilibrium"
+],
+[
+"9.3",
+"Stability",
+"9-3-stability"
+],
+[
+"9.4",
+"Applications of Statics, Including Problem-Solving Strategies",
+"9-4-applications-of-statics-including-problem-solving-strategies"
+],
+[
+"9.5",
+"Simple Machines",
+"9-5-simple-machines"
+],
+[
+"9.6",
+"Forces and Torques in Muscles and Joints",
+"9-6-forces-and-torques-in-muscles-and-joints"
+]
+]
+],
+[
+10,
+"Rotational Motion and Angular Momentum",
+[
+[
+"10",
+"Introduction to Rotational Motion and Angular Momentum",
+"10-introduction"
+],
+[
+"10.1",
+"Angular Acceleration",
+"10-1-angular-acceleration"
+],
+[
+"10.2",
+"Kinematics of Rotational Motion",
+"10-2-kinematics-of-rotational-motion"
+],
+[
+"10.3",
+"Dynamics of Rotational Motion: Rotational Inertia",
+"10-3-dynamics-of-rotational-motion-rotational-inertia"
+],
+[
+"10.4",
+"Rotational Kinetic Energy: Work and Energy Revisited",
+"10-4-rotational-kinetic-energy-work-and-energy-revisited"
+],
+[
+"10.5",
+"Angular Momentum and Its Conservation",
+"10-5-angular-momentum-and-its-conservation"
+],
+[
+"10.6",
+"Collisions of Extended Bodies in Two Dimensions",
+"10-6-collisions-of-extended-bodies-in-two-dimensions"
+],
+[
+"10.7",
+"Gyroscopic Effects: Vector Aspects of Angular Momentum",
+"10-7-gyroscopic-effects-vector-aspects-of-angular-momentum"
+]
+]
+],
+[
+11,
+"Fluid Statics",
+[
+[
+"11",
+"Introduction to Fluid Statics",
+"11-introduction"
+],
+[
+"11.1",
+"What Is a Fluid?",
+"11-1-what-is-a-fluid"
+],
+[
+"11.2",
+"Density",
+"11-2-density"
+],
+[
+"11.3",
+"Pressure",
+"11-3-pressure"
+],
+[
+"11.4",
+"Variation of Pressure with Depth in a Fluid",
+"11-4-variation-of-pressure-with-depth-in-a-fluid"
+],
+[
+"11.5",
+"Pascal\u2019s Principle",
+"11-5-pascals-principle"
+],
+[
+"11.6",
+"Gauge Pressure, Absolute Pressure, and Pressure Measurement",
+"11-6-gauge-pressure-absolute-pressure-and-pressure-measurement"
+],
+[
+"11.7",
+"Archimedes\u2019 Principle",
+"11-7-archimedes-principle"
+],
+[
+"11.8",
+"Cohesion and Adhesion in Liquids: Surface Tension and Capillary Action",
+"11-8-cohesion-and-adhesion-in-liquids-surface-tension-and-capillary-action"
+],
+[
+"11.9",
+"Pressures in the Body",
+"11-9-pressures-in-the-body"
+]
+]
+],
+[
+12,
+"Fluid Dynamics and Its Biological and Medical Applications",
+[
+[
+"12",
+"Introduction to Fluid Dynamics and Its Biological and Medical Applications",
+"12-introduction"
+],
+[
+"12.1",
+"Flow Rate and Its Relation to Velocity",
+"12-1-flow-rate-and-its-relation-to-velocity"
+],
+[
+"12.2",
+"Bernoulli\u2019s Equation",
+"12-2-bernoullis-equation"
+],
+[
+"12.3",
+"The Most General Applications of Bernoulli\u2019s Equation",
+"12-3-the-most-general-applications-of-bernoullis-equation"
+],
+[
+"12.4",
+"Viscosity and Laminar Flow; Poiseuille\u2019s Law",
+"12-4-viscosity-and-laminar-flow-poiseuilles-law"
+],
+[
+"12.5",
+"The Onset of Turbulence",
+"12-5-the-onset-of-turbulence"
+],
+[
+"12.6",
+"Motion of an Object in a Viscous Fluid",
+"12-6-motion-of-an-object-in-a-viscous-fluid"
+],
+[
+"12.7",
+"Molecular Transport Phenomena: Diffusion, Osmosis, and Related Processes",
+"12-7-molecular-transport-phenomena-diffusion-osmosis-and-related-processes"
+]
+]
+],
+[
+13,
+"Temperature, Kinetic Theory, and the Gas Laws",
+[
+[
+"13",
+"Introduction to Temperature, Kinetic Theory, and the Gas Laws",
+"13-introduction"
+],
+[
+"13.1",
+"Temperature",
+"13-1-temperature"
+],
+[
+"13.2",
+"Thermal Expansion of Solids and Liquids",
+"13-2-thermal-expansion-of-solids-and-liquids"
+],
+[
+"13.3",
+"The Ideal Gas Law",
+"13-3-the-ideal-gas-law"
+],
+[
+"13.4",
+"Kinetic Theory: Atomic and Molecular Explanation of Pressure and Temperature",
+"13-4-kinetic-theory-atomic-and-molecular-explanation-of-pressure-and-temperature"
+],
+[
+"13.5",
+"Phase Changes",
+"13-5-phase-changes"
+],
+[
+"13.6",
+"Humidity, Evaporation, and Boiling",
+"13-6-humidity-evaporation-and-boiling"
+]
+]
+],
+[
+14,
+"Heat and Heat Transfer Methods",
+[
+[
+"14",
+"Introduction to Heat and Heat Transfer Methods",
+"14-introduction"
+],
+[
+"14.1",
+"Heat",
+"14-1-heat"
+],
+[
+"14.2",
+"Temperature Change and Heat Capacity",
+"14-2-temperature-change-and-heat-capacity"
+],
+[
+"14.3",
+"Phase Change and Latent Heat",
+"14-3-phase-change-and-latent-heat"
+],
+[
+"14.4",
+"Heat Transfer Methods",
+"14-4-heat-transfer-methods"
+],
+[
+"14.5",
+"Conduction",
+"14-5-conduction"
+],
+[
+"14.6",
+"Convection",
+"14-6-convection"
+],
+[
+"14.7",
+"Radiation",
+"14-7-radiation"
+]
+]
+],
+[
+15,
+"Thermodynamics",
+[
+[
+"15",
+"Introduction to Thermodynamics",
+"15-introduction"
+],
+[
+"15.1",
+"The First Law of Thermodynamics",
+"15-1-the-first-law-of-thermodynamics"
+],
+[
+"15.2",
+"The First Law of Thermodynamics and Some Simple Processes",
+"15-2-the-first-law-of-thermodynamics-and-some-simple-processes"
+],
+[
+"15.3",
+"Introduction to the Second Law of Thermodynamics: Heat Engines and Their Efficiency",
+"15-3-introduction-to-the-second-law-of-thermodynamics-heat-engines-and-their-efficiency"
+],
+[
+"15.4",
+"Carnot\u2019s Perfect Heat Engine: The Second Law of Thermodynamics Restated",
+"15-4-carnots-perfect-heat-engine-the-second-law-of-thermodynamics-restated"
+],
+[
+"15.5",
+"Applications of Thermodynamics: Heat Pumps and Refrigerators",
+"15-5-applications-of-thermodynamics-heat-pumps-and-refrigerators"
+],
+[
+"15.6",
+"Entropy and the Second Law of Thermodynamics: Disorder and the Unavailability of Energy",
+"15-6-entropy-and-the-second-law-of-thermodynamics-disorder-and-the-unavailability-of-energy"
+],
+[
+"15.7",
+"Statistical Interpretation of Entropy and the Second Law of Thermodynamics: The Underlying Explanation",
+"15-7-statistical-interpretation-of-entropy-and-the-second-law-of-thermodynamics-the-underlying-explanation"
+]
+]
+],
+[
+16,
+"Oscillatory Motion and Waves",
+[
+[
+"16",
+"Introduction to Oscillatory Motion and Waves",
+"16-introduction"
+],
+[
+"16.1",
+"Hooke\u2019s Law: Stress and Strain Revisited",
+"16-1-hookes-law-stress-and-strain-revisited"
+],
+[
+"16.2",
+"Period and Frequency in Oscillations",
+"16-2-period-and-frequency-in-oscillations"
+],
+[
+"16.3",
+"Simple Harmonic Motion: A Special Periodic Motion",
+"16-3-simple-harmonic-motion-a-special-periodic-motion"
+],
+[
+"16.4",
+"The Simple Pendulum",
+"16-4-the-simple-pendulum"
+],
+[
+"16.5",
+"Energy and the Simple Harmonic Oscillator",
+"16-5-energy-and-the-simple-harmonic-oscillator"
+],
+[
+"16.6",
+"Uniform Circular Motion and Simple Harmonic Motion",
+"16-6-uniform-circular-motion-and-simple-harmonic-motion"
+],
+[
+"16.7",
+"Damped Harmonic Motion",
+"16-7-damped-harmonic-motion"
+],
+[
+"16.8",
+"Forced Oscillations and Resonance",
+"16-8-forced-oscillations-and-resonance"
+],
+[
+"16.9",
+"Waves",
+"16-9-waves"
+],
+[
+"16.10",
+"Superposition and Interference",
+"16-10-superposition-and-interference"
+],
+[
+"16.11",
+"Energy in Waves: Intensity",
+"16-11-energy-in-waves-intensity"
+]
+]
+],
+[
+17,
+"Physics of Hearing",
+[
+[
+"17",
+"Introduction to the Physics of Hearing",
+"17-introduction"
+],
+[
+"17.1",
+"Sound",
+"17-1-sound"
+],
+[
+"17.2",
+"Speed of Sound, Frequency, and Wavelength",
+"17-2-speed-of-sound-frequency-and-wavelength"
+],
+[
+"17.3",
+"Sound Intensity and Sound Level",
+"17-3-sound-intensity-and-sound-level"
+],
+[
+"17.4",
+"Doppler Effect and Sonic Booms",
+"17-4-doppler-effect-and-sonic-booms"
+],
+[
+"17.5",
+"Sound Interference and Resonance: Standing Waves in Air Columns",
+"17-5-sound-interference-and-resonance-standing-waves-in-air-columns"
+],
+[
+"17.6",
+"Hearing",
+"17-6-hearing"
+],
+[
+"17.7",
+"Ultrasound",
+"17-7-ultrasound"
+]
+]
+],
+[
+18,
+"Electric Charge and Electric Field",
+[
+[
+"18",
+"Introduction to Electric Charge and Electric Field",
+"18-introduction"
+],
+[
+"18.1",
+"Static Electricity and Charge: Conservation of Charge",
+"18-1-static-electricity-and-charge-conservation-of-charge"
+],
+[
+"18.2",
+"Conductors and Insulators",
+"18-2-conductors-and-insulators"
+],
+[
+"18.3",
+"Coulomb\u2019s Law",
+"18-3-coulombs-law"
+],
+[
+"18.4",
+"Electric Field: Concept of a Field Revisited",
+"18-4-electric-field-concept-of-a-field-revisited"
+],
+[
+"18.5",
+"Electric Field Lines: Multiple Charges",
+"18-5-electric-field-lines-multiple-charges"
+],
+[
+"18.6",
+"Electric Forces in Biology",
+"18-6-electric-forces-in-biology"
+],
+[
+"18.7",
+"Conductors and Electric Fields in Static Equilibrium",
+"18-7-conductors-and-electric-fields-in-static-equilibrium"
+],
+[
+"18.8",
+"Applications of Electrostatics",
+"18-8-applications-of-electrostatics"
+]
+]
+],
+[
+19,
+"Electric Potential and Electric Field",
+[
+[
+"19",
+"Introduction to Electric Potential and Electric Energy",
+"19-introduction"
+],
+[
+"19.1",
+"Electric Potential Energy: Potential Difference",
+"19-1-electric-potential-energy-potential-difference"
+],
+[
+"19.2",
+"Electric Potential in a Uniform Electric Field",
+"19-2-electric-potential-in-a-uniform-electric-field"
+],
+[
+"19.3",
+"Electrical Potential Due to a Point Charge",
+"19-3-electrical-potential-due-to-a-point-charge"
+],
+[
+"19.4",
+"Equipotential Lines",
+"19-4-equipotential-lines"
+],
+[
+"19.5",
+"Capacitors and Dielectrics",
+"19-5-capacitors-and-dielectrics"
+],
+[
+"19.6",
+"Capacitors in Series and Parallel",
+"19-6-capacitors-in-series-and-parallel"
+],
+[
+"19.7",
+"Energy Stored in Capacitors",
+"19-7-energy-stored-in-capacitors"
+]
+]
+],
+[
+20,
+"Electric Current, Resistance, and Ohm's Law",
+[
+[
+"20",
+"Introduction to Electric Current, Resistance, and Ohm's Law",
+"20-introduction"
+],
+[
+"20.1",
+"Current",
+"20-1-current"
+],
+[
+"20.2",
+"Ohm\u2019s Law: Resistance and Simple Circuits",
+"20-2-ohms-law-resistance-and-simple-circuits"
+],
+[
+"20.3",
+"Resistance and Resistivity",
+"20-3-resistance-and-resistivity"
+],
+[
+"20.4",
+"Electric Power and Energy",
+"20-4-electric-power-and-energy"
+],
+[
+"20.5",
+"Alternating Current versus Direct Current",
+"20-5-alternating-current-versus-direct-current"
+],
+[
+"20.6",
+"Electric Hazards and the Human Body",
+"20-6-electric-hazards-and-the-human-body"
+],
+[
+"20.7",
+"Nerve Conduction\u2013Electrocardiograms",
+"20-7-nerve-conduction-electrocardiograms"
+]
+]
+],
+[
+21,
+"Circuits and DC Instruments",
+[
+[
+"21",
+"Introduction to Circuits and DC Instruments",
+"21-introduction"
+],
+[
+"21.1",
+"Resistors in Series and Parallel",
+"21-1-resistors-in-series-and-parallel"
+],
+[
+"21.2",
+"Electromotive Force: Terminal Voltage",
+"21-2-electromotive-force-terminal-voltage"
+],
+[
+"21.3",
+"Kirchhoff\u2019s Rules",
+"21-3-kirchhoffs-rules"
+],
+[
+"21.4",
+"DC Voltmeters and Ammeters",
+"21-4-dc-voltmeters-and-ammeters"
+],
+[
+"21.5",
+"Null Measurements",
+"21-5-null-measurements"
+],
+[
+"21.6",
+"DC Circuits Containing Resistors and Capacitors",
+"21-6-dc-circuits-containing-resistors-and-capacitors"
+]
+]
+],
+[
+22,
+"Magnetism",
+[
+[
+"22",
+"Introduction to Magnetism",
+"22-introduction"
+],
+[
+"22.1",
+"Magnets",
+"22-1-magnets"
+],
+[
+"22.2",
+"Ferromagnets and Electromagnets",
+"22-2-ferromagnets-and-electromagnets"
+],
+[
+"22.3",
+"Magnetic Fields and Magnetic Field Lines",
+"22-3-magnetic-fields-and-magnetic-field-lines"
+],
+[
+"22.4",
+"Magnetic Field Strength: Force on a Moving Charge in a Magnetic Field",
+"22-4-magnetic-field-strength-force-on-a-moving-charge-in-a-magnetic-field"
+],
+[
+"22.5",
+"Force on a Moving Charge in a Magnetic Field: Examples and Applications",
+"22-5-force-on-a-moving-charge-in-a-magnetic-field-examples-and-applications"
+],
+[
+"22.6",
+"The Hall Effect",
+"22-6-the-hall-effect"
+],
+[
+"22.7",
+"Magnetic Force on a Current-Carrying Conductor",
+"22-7-magnetic-force-on-a-current-carrying-conductor"
+],
+[
+"22.8",
+"Torque on a Current Loop: Motors and Meters",
+"22-8-torque-on-a-current-loop-motors-and-meters"
+],
+[
+"22.9",
+"Magnetic Fields Produced by Currents: Ampere\u2019s Law",
+"22-9-magnetic-fields-produced-by-currents-amperes-law"
+],
+[
+"22.10",
+"Magnetic Force between Two Parallel Conductors",
+"22-10-magnetic-force-between-two-parallel-conductors"
+],
+[
+"22.11",
+"More Applications of Magnetism",
+"22-11-more-applications-of-magnetism"
+]
+]
+],
+[
+23,
+"Electromagnetic Induction, AC Circuits, and Electrical Technologies",
+[
+[
+"23",
+"Introduction to Electromagnetic Induction, AC Circuits and Electrical Technologies",
+"23-introduction"
+],
+[
+"23.1",
+"Induced Emf and Magnetic Flux",
+"23-1-induced-emf-and-magnetic-flux"
+],
+[
+"23.2",
+"Faraday\u2019s Law of Induction: Lenz\u2019s Law",
+"23-2-faradays-law-of-induction-lenzs-law"
+],
+[
+"23.3",
+"Motional Emf",
+"23-3-motional-emf"
+],
+[
+"23.4",
+"Eddy Currents and Magnetic Damping",
+"23-4-eddy-currents-and-magnetic-damping"
+],
+[
+"23.5",
+"Electric Generators",
+"23-5-electric-generators"
+],
+[
+"23.6",
+"Back Emf",
+"23-6-back-emf"
+],
+[
+"23.7",
+"Transformers",
+"23-7-transformers"
+],
+[
+"23.8",
+"Electrical Safety: Systems and Devices",
+"23-8-electrical-safety-systems-and-devices"
+],
+[
+"23.9",
+"Inductance",
+"23-9-inductance"
+],
+[
+"23.10",
+"RL Circuits",
+"23-10-rl-circuits"
+],
+[
+"23.11",
+"Reactance, Inductive and Capacitive",
+"23-11-reactance-inductive-and-capacitive"
+],
+[
+"23.12",
+"RLC Series AC Circuits",
+"23-12-rlc-series-ac-circuits"
+]
+]
+],
+[
+24,
+"Electromagnetic Waves",
+[
+[
+"24",
+"Introduction to Electromagnetic Waves",
+"24-introduction"
+],
+[
+"24.1",
+"Maxwell\u2019s Equations: Electromagnetic Waves Predicted and Observed",
+"24-1-maxwells-equations-electromagnetic-waves-predicted-and-observed"
+],
+[
+"24.2",
+"Production of Electromagnetic Waves",
+"24-2-production-of-electromagnetic-waves"
+],
+[
+"24.3",
+"The Electromagnetic Spectrum",
+"24-3-the-electromagnetic-spectrum"
+],
+[
+"24.4",
+"Energy in Electromagnetic Waves",
+"24-4-energy-in-electromagnetic-waves"
+]
+]
+],
+[
+25,
+"Geometric Optics",
+[
+[
+"25",
+"Introduction to Geometric Optics",
+"25-introduction"
+],
+[
+"25.1",
+"The Ray Aspect of Light",
+"25-1-the-ray-aspect-of-light"
+],
+[
+"25.2",
+"The Law of Reflection",
+"25-2-the-law-of-reflection"
+],
+[
+"25.3",
+"The Law of Refraction",
+"25-3-the-law-of-refraction"
+],
+[
+"25.4",
+"Total Internal Reflection",
+"25-4-total-internal-reflection"
+],
+[
+"25.5",
+"Dispersion: The Rainbow and Prisms",
+"25-5-dispersion-the-rainbow-and-prisms"
+],
+[
+"25.6",
+"Image Formation by Lenses",
+"25-6-image-formation-by-lenses"
+],
+[
+"25.7",
+"Image Formation by Mirrors",
+"25-7-image-formation-by-mirrors"
+]
+]
+],
+[
+26,
+"Vision and Optical Instruments",
+[
+[
+"26",
+"Introduction to Vision and Optical Instruments",
+"26-introduction"
+],
+[
+"26.1",
+"Physics of the Eye",
+"26-1-physics-of-the-eye"
+],
+[
+"26.2",
+"Vision Correction",
+"26-2-vision-correction"
+],
+[
+"26.3",
+"Color and Color Vision",
+"26-3-color-and-color-vision"
+],
+[
+"26.4",
+"Microscopes",
+"26-4-microscopes"
+],
+[
+"26.5",
+"Telescopes",
+"26-5-telescopes"
+],
+[
+"26.6",
+"Aberrations",
+"26-6-aberrations"
+]
+]
+],
+[
+27,
+"Wave Optics",
+[
+[
+"27",
+"Introduction to Wave Optics",
+"27-introduction"
+],
+[
+"27.1",
+"The Wave Aspect of Light: Interference",
+"27-1-the-wave-aspect-of-light-interference"
+],
+[
+"27.2",
+"Huygens's Principle: Diffraction",
+"27-2-huygenss-principle-diffraction"
+],
+[
+"27.3",
+"Young\u2019s Double Slit Experiment",
+"27-3-youngs-double-slit-experiment"
+],
+[
+"27.4",
+"Multiple Slit Diffraction",
+"27-4-multiple-slit-diffraction"
+],
+[
+"27.5",
+"Single Slit Diffraction",
+"27-5-single-slit-diffraction"
+],
+[
+"27.6",
+"Limits of Resolution: The Rayleigh Criterion",
+"27-6-limits-of-resolution-the-rayleigh-criterion"
+],
+[
+"27.7",
+"Thin Film Interference",
+"27-7-thin-film-interference"
+],
+[
+"27.8",
+"Polarization",
+"27-8-polarization"
+],
+[
+"27.9",
+"*Extended Topic* Microscopy Enhanced by the Wave Characteristics of Light",
+"27-9-extended-topic-microscopy-enhanced-by-the-wave-characteristics-of-light"
+]
+]
+],
+[
+28,
+"Special Relativity",
+[
+[
+"28",
+"Introduction to Special Relativity",
+"28-introduction"
+],
+[
+"28.1",
+"Einstein\u2019s Postulates",
+"28-1-einsteins-postulates"
+],
+[
+"28.2",
+"Simultaneity And Time Dilation",
+"28-2-simultaneity-and-time-dilation"
+],
+[
+"28.3",
+"Length Contraction",
+"28-3-length-contraction"
+],
+[
+"28.4",
+"Relativistic Addition of Velocities",
+"28-4-relativistic-addition-of-velocities"
+],
+[
+"28.5",
+"Relativistic Momentum",
+"28-5-relativistic-momentum"
+],
+[
+"28.6",
+"Relativistic Energy",
+"28-6-relativistic-energy"
+]
+]
+],
+[
+29,
+"Quantum Physics",
+[
+[
+"29",
+"Introduction to Quantum Physics",
+"29-introduction"
+],
+[
+"29.1",
+"Quantization of Energy",
+"29-1-quantization-of-energy"
+],
+[
+"29.2",
+"The Photoelectric Effect",
+"29-2-the-photoelectric-effect"
+],
+[
+"29.3",
+"Photon Energies and the Electromagnetic Spectrum",
+"29-3-photon-energies-and-the-electromagnetic-spectrum"
+],
+[
+"29.4",
+"Photon Momentum",
+"29-4-photon-momentum"
+],
+[
+"29.5",
+"The Particle-Wave Duality",
+"29-5-the-particle-wave-duality"
+],
+[
+"29.6",
+"The Wave Nature of Matter",
+"29-6-the-wave-nature-of-matter"
+],
+[
+"29.7",
+"Probability: The Heisenberg Uncertainty Principle",
+"29-7-probability-the-heisenberg-uncertainty-principle"
+],
+[
+"29.8",
+"The Particle-Wave Duality Reviewed",
+"29-8-the-particle-wave-duality-reviewed"
+]
+]
+],
+[
+30,
+"Atomic Physics",
+[
+[
+"30",
+"Introduction to Atomic Physics",
+"30-introduction"
+],
+[
+"30.1",
+"Discovery of the Atom",
+"30-1-discovery-of-the-atom"
+],
+[
+"30.2",
+"Discovery of the Parts of the Atom: Electrons and Nuclei",
+"30-2-discovery-of-the-parts-of-the-atom-electrons-and-nuclei"
+],
+[
+"30.3",
+"Bohr\u2019s Theory of the Hydrogen Atom",
+"30-3-bohrs-theory-of-the-hydrogen-atom"
+],
+[
+"30.4",
+"X Rays: Atomic Origins and Applications",
+"30-4-x-rays-atomic-origins-and-applications"
+],
+[
+"30.5",
+"Applications of Atomic Excitations and De-Excitations",
+"30-5-applications-of-atomic-excitations-and-de-excitations"
+],
+[
+"30.6",
+"The Wave Nature of Matter Causes Quantization",
+"30-6-the-wave-nature-of-matter-causes-quantization"
+],
+[
+"30.7",
+"Patterns in Spectra Reveal More Quantization",
+"30-7-patterns-in-spectra-reveal-more-quantization"
+],
+[
+"30.8",
+"Quantum Numbers and Rules",
+"30-8-quantum-numbers-and-rules"
+],
+[
+"30.9",
+"The Pauli Exclusion Principle",
+"30-9-the-pauli-exclusion-principle"
+]
+]
+],
+[
+31,
+"Radioactivity and Nuclear Physics",
+[
+[
+"31",
+"Introduction to Radioactivity and Nuclear Physics",
+"31-introduction"
+],
+[
+"31.1",
+"Nuclear Radioactivity",
+"31-1-nuclear-radioactivity"
+],
+[
+"31.2",
+"Radiation Detection and Detectors",
+"31-2-radiation-detection-and-detectors"
+],
+[
+"31.3",
+"Substructure of the Nucleus",
+"31-3-substructure-of-the-nucleus"
+],
+[
+"31.4",
+"Nuclear Decay and Conservation Laws",
+"31-4-nuclear-decay-and-conservation-laws"
+],
+[
+"31.5",
+"Half-Life and Activity",
+"31-5-half-life-and-activity"
+],
+[
+"31.6",
+"Binding Energy",
+"31-6-binding-energy"
+],
+[
+"31.7",
+"Tunneling",
+"31-7-tunneling"
+]
+]
+],
+[
+32,
+"Medical Applications of Nuclear Physics",
+[
+[
+"32",
+"Introduction to Applications of Nuclear Physics",
+"32-introduction"
+],
+[
+"32.1",
+"Diagnostics and Medical Imaging",
+"32-1-diagnostics-and-medical-imaging"
+],
+[
+"32.2",
+"Biological Effects of Ionizing Radiation",
+"32-2-biological-effects-of-ionizing-radiation"
+],
+[
+"32.3",
+"Therapeutic Uses of Ionizing Radiation",
+"32-3-therapeutic-uses-of-ionizing-radiation"
+],
+[
+"32.4",
+"Food Irradiation",
+"32-4-food-irradiation"
+],
+[
+"32.5",
+"Fusion",
+"32-5-fusion"
+],
+[
+"32.6",
+"Fission",
+"32-6-fission"
+],
+[
+"32.7",
+"Nuclear Weapons",
+"32-7-nuclear-weapons"
+]
+]
+],
+[
+33,
+"Particle Physics",
+[
+[
+"33",
+"Introduction to Particle Physics",
+"33-introduction"
+],
+[
+"33.1",
+"The Yukawa Particle and the Heisenberg Uncertainty Principle Revisited",
+"33-1-the-yukawa-particle-and-the-heisenberg-uncertainty-principle-revisited"
+],
+[
+"33.2",
+"The Four Basic Forces",
+"33-2-the-four-basic-forces"
+],
+[
+"33.3",
+"Accelerators Create Matter from Energy",
+"33-3-accelerators-create-matter-from-energy"
+],
+[
+"33.4",
+"Particles, Patterns, and Conservation Laws",
+"33-4-particles-patterns-and-conservation-laws"
+],
+[
+"33.5",
+"Quarks: Is That All There Is?",
+"33-5-quarks-is-that-all-there-is"
+],
+[
+"33.6",
+"GUTs: The Unification of Forces",
+"33-6-guts-the-unification-of-forces"
+]
+]
+],
+[
+34,
+"Frontiers of Physics",
+[
+[
+"34",
+"Introduction to Frontiers of Physics",
+"34-introduction"
+],
+[
+"34.1",
+"Cosmology and Particle Physics",
+"34-1-cosmology-and-particle-physics"
+],
+[
+"34.2",
+"General Relativity and Quantum Gravity",
+"34-2-general-relativity-and-quantum-gravity"
+],
+[
+"34.3",
+"Superstrings",
+"34-3-superstrings"
+],
+[
+"34.4",
+"Dark Matter and Closure",
+"34-4-dark-matter-and-closure"
+],
+[
+"34.5",
+"Complexity and Chaos",
+"34-5-complexity-and-chaos"
+],
+[
+"34.6",
+"High-temperature Superconductors",
+"34-6-high-temperature-superconductors"
+],
+[
+"34.7",
+"Some Questions We Know to Ask",
+"34-7-some-questions-we-know-to-ask"
+]
+]
+]
+],
+"organic-chemistry": [
+[
+1,
+"Structure and Bonding",
+[
+[
+"1",
+"Why This Chapter?",
+"1-introduction"
+],
+[
+"1.1",
+"Atomic Structure: The Nucleus",
+"1-1-atomic-structure-the-nucleus"
+],
+[
+"1.2",
+"Atomic Structure: Orbitals",
+"1-2-atomic-structure-orbitals"
+],
+[
+"1.3",
+"Atomic Structure: Electron Configurations",
+"1-3-atomic-structure-electron-configurations"
+],
+[
+"1.4",
+"Development of Chemical Bonding Theory",
+"1-4-development-of-chemical-bonding-theory"
+],
+[
+"1.5",
+"Describing Chemical Bonds: Valence Bond Theory",
+"1-5-describing-chemical-bonds-valence-bond-theory"
+],
+[
+"1.6",
+"sp3 Hybrid Orbitals and the Structure of Methane",
+"1-6-sp3-hybrid-orbitals-and-the-structure-of-methane"
+],
+[
+"1.7",
+"sp3 Hybrid Orbitals and the Structure of Ethane",
+"1-7-sp3-hybrid-orbitals-and-the-structure-of-ethane"
+],
+[
+"1.8",
+"sp2 Hybrid Orbitals and the Structure of Ethylene",
+"1-8-sp2-hybrid-orbitals-and-the-structure-of-ethylene"
+],
+[
+"1.9",
+"sp Hybrid Orbitals and the Structure of Acetylene",
+"1-9-sp-hybrid-orbitals-and-the-structure-of-acetylene"
+],
+[
+"1.10",
+"Hybridization of Nitrogen, Oxygen, Phosphorus, and Sulfur",
+"1-10-hybridization-of-nitrogen-oxygen-phosphorus-and-sulfur"
+],
+[
+"1.11",
+"Describing Chemical Bonds: Molecular Orbital Theory",
+"1-11-describing-chemical-bonds-molecular-orbital-theory"
+],
+[
+"1.12",
+"Drawing Chemical Structures",
+"1-12-drawing-chemical-structures"
+]
+]
+],
+[
+2,
+"Polar Covalent Bonds; Acids and Bases",
+[
+[
+"2",
+"Why This Chapter?",
+"2-introduction"
+],
+[
+"2.1",
+"Polar Covalent Bonds and Electronegativity",
+"2-1-polar-covalent-bonds-and-electronegativity"
+],
+[
+"2.2",
+"Polar Covalent Bonds and Dipole Moments",
+"2-2-polar-covalent-bonds-and-dipole-moments"
+],
+[
+"2.3",
+"Formal Charges",
+"2-3-formal-charges"
+],
+[
+"2.4",
+"Resonance",
+"2-4-resonance"
+],
+[
+"2.5",
+"Rules for Resonance Forms",
+"2-5-rules-for-resonance-forms"
+],
+[
+"2.6",
+"Drawing Resonance Forms",
+"2-6-drawing-resonance-forms"
+],
+[
+"2.7",
+"Acids and Bases: The Br\u00f8nsted\u2013Lowry Definition",
+"2-7-acids-and-bases-the-bronsted-lowry-definition"
+],
+[
+"2.8",
+"Acid and Base Strength",
+"2-8-acid-and-base-strength"
+],
+[
+"2.9",
+"Predicting Acid\u2013Base Reactions from pKa Values",
+"2-9-predicting-acid-base-reactions-from-pka-values"
+],
+[
+"2.10",
+"Organic Acids and Organic Bases",
+"2-10-organic-acids-and-organic-bases"
+],
+[
+"2.11",
+"Acids and Bases: The Lewis Definition",
+"2-11-acids-and-bases-the-lewis-definition"
+],
+[
+"2.12",
+"Noncovalent Interactions between Molecules",
+"2-12-noncovalent-interactions-between-molecules"
+]
+]
+],
+[
+3,
+"Organic Compounds: Alkanes and Their Stereochemistry",
+[
+[
+"3",
+"Why This Chapter?",
+"3-introduction"
+],
+[
+"3.1",
+"Functional Groups",
+"3-1-functional-groups"
+],
+[
+"3.2",
+"Alkanes and Alkane Isomers",
+"3-2-alkanes-and-alkane-isomers"
+],
+[
+"3.3",
+"Alkyl Groups",
+"3-3-alkyl-groups"
+],
+[
+"3.4",
+"Naming Alkanes",
+"3-4-naming-alkanes"
+],
+[
+"3.5",
+"Properties of Alkanes",
+"3-5-properties-of-alkanes"
+],
+[
+"3.6",
+"Conformations of Ethane",
+"3-6-conformations-of-ethane"
+],
+[
+"3.7",
+"Conformations of Other Alkanes",
+"3-7-conformations-of-other-alkanes"
+]
+]
+],
+[
+4,
+"Organic Compounds: Cycloalkanes and Their Stereochemistry",
+[
+[
+"4",
+"Why This Chapter?",
+"4-introduction"
+],
+[
+"4.1",
+"Naming Cycloalkanes",
+"4-1-naming-cycloalkanes"
+],
+[
+"4.2",
+"Cis\u2013Trans Isomerism in Cycloalkanes",
+"4-2-cis-trans-isomerism-in-cycloalkanes"
+],
+[
+"4.3",
+"Stability of Cycloalkanes: Ring Strain",
+"4-3-stability-of-cycloalkanes-ring-strain"
+],
+[
+"4.4",
+"Conformations of Cycloalkanes",
+"4-4-conformations-of-cycloalkanes"
+],
+[
+"4.5",
+"Conformations of Cyclohexane",
+"4-5-conformations-of-cyclohexane"
+],
+[
+"4.6",
+"Axial and Equatorial Bonds in Cyclohexane",
+"4-6-axial-and-equatorial-bonds-in-cyclohexane"
+],
+[
+"4.7",
+"Conformations of Monosubstituted Cyclohexanes",
+"4-7-conformations-of-monosubstituted-cyclohexanes"
+],
+[
+"4.8",
+"Conformations of Disubstituted Cyclohexanes",
+"4-8-conformations-of-disubstituted-cyclohexanes"
+],
+[
+"4.9",
+"Conformations of Polycyclic Molecules",
+"4-9-conformations-of-polycyclic-molecules"
+]
+]
+],
+[
+5,
+"Stereochemistry at Tetrahedral Centers",
+[
+[
+"5",
+"Why This Chapter?",
+"5-introduction"
+],
+[
+"5.1",
+"Enantiomers and the Tetrahedral Carbon",
+"5-1-enantiomers-and-the-tetrahedral-carbon"
+],
+[
+"5.2",
+"The Reason for Handedness in Molecules: Chirality",
+"5-2-the-reason-for-handedness-in-molecules-chirality"
+],
+[
+"5.3",
+"Optical Activity",
+"5-3-optical-activity"
+],
+[
+"5.4",
+"Pasteur\u2019s Discovery of Enantiomers",
+"5-4-pasteurs-discovery-of-enantiomers"
+],
+[
+"5.5",
+"Sequence Rules for Specifying Configuration",
+"5-5-sequence-rules-for-specifying-configuration"
+],
+[
+"5.6",
+"Diastereomers",
+"5-6-diastereomers"
+],
+[
+"5.7",
+"Meso Compounds",
+"5-7-meso-compounds"
+],
+[
+"5.8",
+"Racemic Mixtures and the Resolution of Enantiomers",
+"5-8-racemic-mixtures-and-the-resolution-of-enantiomers"
+],
+[
+"5.9",
+"A Review of Isomerism",
+"5-9-a-review-of-isomerism"
+],
+[
+"5.10",
+"Chirality at Nitrogen, Phosphorus, and Sulfur",
+"5-10-chirality-at-nitrogen-phosphorus-and-sulfur"
+],
+[
+"5.11",
+"Prochirality",
+"5-11-prochirality"
+],
+[
+"5.12",
+"Chirality in Nature and Chiral Environments",
+"5-12-chirality-in-nature-and-chiral-environments"
+]
+]
+],
+[
+6,
+"An Overview of Organic Reactions",
+[
+[
+"6",
+"Why This Chapter?",
+"6-introduction"
+],
+[
+"6.1",
+"Kinds of Organic Reactions",
+"6-1-kinds-of-organic-reactions"
+],
+[
+"6.2",
+"How Organic Reactions Occur: Mechanisms",
+"6-2-how-organic-reactions-occur-mechanisms"
+],
+[
+"6.3",
+"Polar Reactions",
+"6-3-polar-reactions"
+],
+[
+"6.4",
+"An Example of a Polar Reaction: Addition of HBr to Ethylene",
+"6-4-an-example-of-a-polar-reaction-addition-of-hbr-to-ethylene"
+],
+[
+"6.5",
+"Using Curved Arrows in Polar Reaction Mechanisms",
+"6-5-using-curved-arrows-in-polar-reaction-mechanisms"
+],
+[
+"6.6",
+"Radical Reactions",
+"6-6-radical-reactions"
+],
+[
+"6.7",
+"Describing a Reaction: Equilibria, Rates, and Energy Changes",
+"6-7-describing-a-reaction-equilibria-rates-and-energy-changes"
+],
+[
+"6.8",
+"Describing a Reaction: Bond Dissociation Energies",
+"6-8-describing-a-reaction-bond-dissociation-energies"
+],
+[
+"6.9",
+"Describing a Reaction: Energy Diagrams and Transition States",
+"6-9-describing-a-reaction-energy-diagrams-and-transition-states"
+],
+[
+"6.10",
+"Describing a Reaction: Intermediates",
+"6-10-describing-a-reaction-intermediates"
+],
+[
+"6.11",
+"A Comparison Between Biological Reactions and Laboratory Reactions",
+"6-11-a-comparison-between-biological-reactions-and-laboratory-reactions"
+]
+]
+],
+[
+7,
+"Alkenes: Structure and Reactivity",
+[
+[
+"7",
+"Why This Chapter?",
+"7-introduction"
+],
+[
+"7.1",
+"Industrial Preparation and Use of Alkenes",
+"7-1-industrial-preparation-and-use-of-alkenes"
+],
+[
+"7.2",
+"Calculating the Degree of Unsaturation",
+"7-2-calculating-the-degree-of-unsaturation"
+],
+[
+"7.3",
+"Naming Alkenes",
+"7-3-naming-alkenes"
+],
+[
+"7.4",
+"Cis\u2013Trans Isomerism in Alkenes",
+"7-4-cis-trans-isomerism-in-alkenes"
+],
+[
+"7.5",
+"Alkene Stereochemistry and the E,Z Designation",
+"7-5-alkene-stereochemistry-and-the-ez-designation"
+],
+[
+"7.6",
+"Stability of Alkenes",
+"7-6-stability-of-alkenes"
+],
+[
+"7.7",
+"Electrophilic Addition Reactions of Alkenes",
+"7-7-electrophilic-addition-reactions-of-alkenes"
+],
+[
+"7.8",
+"Orientation of Electrophilic Additions: Markovnikov\u2019s Rule",
+"7-8-orientation-of-electrophilic-additions-markovnikovs-rule"
+],
+[
+"7.9",
+"Carbocation Structure and Stability",
+"7-9-carbocation-structure-and-stability"
+],
+[
+"7.10",
+"The Hammond Postulate",
+"7-10-the-hammond-postulate"
+],
+[
+"7.11",
+"Evidence for the Mechanism of Electrophilic Additions: Carbocation Rearrangements",
+"7-11-evidence-for-the-mechanism-of-electrophilic-additions-carbocation-rearrangements"
+]
+]
+],
+[
+8,
+"Alkenes: Reactions and Synthesis",
+[
+[
+"8",
+"Why This Chapter?",
+"8-introduction"
+],
+[
+"8.1",
+"Preparing Alkenes: A Preview of Elimination Reactions",
+"8-1-preparing-alkenes-a-preview-of-elimination-reactions"
+],
+[
+"8.2",
+"Halogenation of Alkenes: Addition of X2",
+"8-2-halogenation-of-alkenes-addition-of-x2"
+],
+[
+"8.3",
+"Halohydrins from Alkenes: Addition of HO-X",
+"8-3-halohydrins-from-alkenes-addition-of-ho-x"
+],
+[
+"8.4",
+"Hydration of Alkenes: Addition of H2O by Oxymercuration",
+"8-4-hydration-of-alkenes-addition-of-h2o-by-oxymercuration"
+],
+[
+"8.5",
+"Hydration of Alkenes: Addition of H2O by Hydroboration",
+"8-5-hydration-of-alkenes-addition-of-h2o-by-hydroboration"
+],
+[
+"8.6",
+"Reduction of Alkenes: Hydrogenation",
+"8-6-reduction-of-alkenes-hydrogenation"
+],
+[
+"8.7",
+"Oxidation of Alkenes: Epoxidation and Hydroxylation",
+"8-7-oxidation-of-alkenes-epoxidation-and-hydroxylation"
+],
+[
+"8.8",
+"Oxidation of Alkenes: Cleavage to Carbonyl Compounds",
+"8-8-oxidation-of-alkenes-cleavage-to-carbonyl-compounds"
+],
+[
+"8.9",
+"Addition of Carbenes to Alkenes: Cyclopropane Synthesis",
+"8-9-addition-of-carbenes-to-alkenes-cyclopropane-synthesis"
+],
+[
+"8.10",
+"Radical Additions to Alkenes: Chain-Growth Polymers",
+"8-10-radical-additions-to-alkenes-chain-growth-polymers"
+],
+[
+"8.11",
+"Biological Additions of Radicals to Alkenes",
+"8-11-biological-additions-of-radicals-to-alkenes"
+],
+[
+"8.12",
+"Reaction Stereochemistry: Addition of H2O to an Achiral Alkene",
+"8-12-reaction-stereochemistry-addition-of-h2o-to-an-achiral-alkene"
+],
+[
+"8.13",
+"Reaction Stereochemistry: Addition of H2O to a Chiral Alkene",
+"8-13-reaction-stereochemistry-addition-of-h2o-to-a-chiral-alkene"
+]
+]
+],
+[
+9,
+"Alkynes: An Introduction to Organic Synthesis",
+[
+[
+"9",
+"Why This Chapter?",
+"9-introduction"
+],
+[
+"9.1",
+"Naming Alkynes",
+"9-1-naming-alkynes"
+],
+[
+"9.2",
+"Preparation of Alkynes: Elimination Reactions of Dihalides",
+"9-2-preparation-of-alkynes-elimination-reactions-of-dihalides"
+],
+[
+"9.3",
+"Reactions of Alkynes: Addition of HX and X2",
+"9-3-reactions-of-alkynes-addition-of-hx-and-x2"
+],
+[
+"9.4",
+"Hydration of Alkynes",
+"9-4-hydration-of-alkynes"
+],
+[
+"9.5",
+"Reduction of Alkynes",
+"9-5-reduction-of-alkynes"
+],
+[
+"9.6",
+"Oxidative Cleavage of Alkynes",
+"9-6-oxidative-cleavage-of-alkynes"
+],
+[
+"9.7",
+"Alkyne Acidity: Formation of Acetylide Anions",
+"9-7-alkyne-acidity-formation-of-acetylide-anions"
+],
+[
+"9.8",
+"Alkylation of Acetylide Anions",
+"9-8-alkylation-of-acetylide-anions"
+],
+[
+"9.9",
+"An Introduction to Organic Synthesis",
+"9-9-an-introduction-to-organic-synthesis"
+]
+]
+],
+[
+10,
+"Organohalides",
+[
+[
+"10",
+"Why This Chapter?",
+"10-introduction"
+],
+[
+"10.1",
+"Names and Structures of Alkyl Halides",
+"10-1-names-and-structures-of-alkyl-halides"
+],
+[
+"10.2",
+"Preparing Alkyl Halides from Alkanes: Radical Halogenation",
+"10-2-preparing-alkyl-halides-from-alkanes-radical-halogenation"
+],
+[
+"10.3",
+"Preparing Alkyl Halides from Alkenes: Allylic Bromination",
+"10-3-preparing-alkyl-halides-from-alkenes-allylic-bromination"
+],
+[
+"10.4",
+"Stability of the Allyl Radical: Resonance Revisited",
+"10-4-stability-of-the-allyl-radical-resonance-revisited"
+],
+[
+"10.5",
+"Preparing Alkyl Halides from Alcohols",
+"10-5-preparing-alkyl-halides-from-alcohols"
+],
+[
+"10.6",
+"Reactions of Alkyl Halides: Grignard Reagents",
+"10-6-reactions-of-alkyl-halides-grignard-reagents"
+],
+[
+"10.7",
+"Organometallic Coupling Reactions",
+"10-7-organometallic-coupling-reactions"
+],
+[
+"10.8",
+"Oxidation and Reduction in Organic Chemistry",
+"10-8-oxidation-and-reduction-in-organic-chemistry"
+]
+]
+],
+[
+11,
+"Reactions of Alkyl Halides: Nucleophilic Substitutions and Eliminations",
+[
+[
+"11",
+"Why This Chapter?",
+"11-introduction"
+],
+[
+"11.1",
+"The Discovery of Nucleophilic Substitution Reactions",
+"11-1-the-discovery-of-nucleophilic-substitution-reactions"
+],
+[
+"11.2",
+"The SN2 Reaction",
+"11-2-the-sn2-reaction"
+],
+[
+"11.3",
+"Characteristics of the SN2 Reaction",
+"11-3-characteristics-of-the-sn2-reaction"
+],
+[
+"11.4",
+"The SN1 Reaction",
+"11-4-the-sn1-reaction"
+],
+[
+"11.5",
+"Characteristics of the SN1 Reaction",
+"11-5-characteristics-of-the-sn1-reaction"
+],
+[
+"11.6",
+"Biological Substitution Reactions",
+"11-6-biological-substitution-reactions"
+],
+[
+"11.7",
+"Elimination Reactions: Zaitsev\u2019s Rule",
+"11-7-elimination-reactions-zaitsevs-rule"
+],
+[
+"11.8",
+"The E2 Reaction and the Deuterium Isotope Effect",
+"11-8-the-e2-reaction-and-the-deuterium-isotope-effect"
+],
+[
+"11.9",
+"The E2 Reaction and Cyclohexane Conformation",
+"11-9-the-e2-reaction-and-cyclohexane-conformation"
+],
+[
+"11.10",
+"The E1 and E1cB Reactions",
+"11-10-the-e1-and-e1cb-reactions"
+],
+[
+"11.11",
+"Biological Elimination Reactions",
+"11-11-biological-elimination-reactions"
+],
+[
+"11.12",
+"A Summary of Reactivity: SN1, SN2, E1, E1cB, and E2",
+"11-12-a-summary-of-reactivity-sn1-sn2-e1-e1cb-and-e2"
+]
+]
+],
+[
+12,
+"Structure Determination: Mass Spectrometry and Infrared Spectroscopy",
+[
+[
+"12",
+"Why This Chapter?",
+"12-introduction"
+],
+[
+"12.1",
+"Mass Spectrometry of Small Molecules: Magnetic-Sector Instruments",
+"12-1-mass-spectrometry-of-small-molecules-magnetic-sector-instruments"
+],
+[
+"12.2",
+"Interpreting Mass Spectra",
+"12-2-interpreting-mass-spectra"
+],
+[
+"12.3",
+"Mass Spectrometry of Some Common Functional Groups",
+"12-3-mass-spectrometry-of-some-common-functional-groups"
+],
+[
+"12.4",
+"Mass Spectrometry in Biological Chemistry: Time-of-Flight (TOF) Instruments",
+"12-4-mass-spectrometry-in-biological-chemistry-time-of-flight-tof-instruments"
+],
+[
+"12.5",
+"Spectroscopy and the Electromagnetic Spectrum",
+"12-5-spectroscopy-and-the-electromagnetic-spectrum"
+],
+[
+"12.6",
+"Infrared Spectroscopy",
+"12-6-infrared-spectroscopy"
+],
+[
+"12.7",
+"Interpreting Infrared Spectra",
+"12-7-interpreting-infrared-spectra"
+],
+[
+"12.8",
+"Infrared Spectra of Some Common Functional Groups",
+"12-8-infrared-spectra-of-some-common-functional-groups"
+]
+]
+],
+[
+13,
+"Structure Determination: Nuclear Magnetic Resonance Spectroscopy",
+[
+[
+"13",
+"Why This Chapter?",
+"13-introduction"
+],
+[
+"13.1",
+"Nuclear Magnetic Resonance Spectroscopy",
+"13-1-nuclear-magnetic-resonance-spectroscopy"
+],
+[
+"13.2",
+"The Nature of NMR Absorptions",
+"13-2-the-nature-of-nmr-absorptions"
+],
+[
+"13.3",
+"Chemical Shifts",
+"13-3-chemical-shifts"
+],
+[
+"13.4",
+"Chemical Shifts in 1H NMR Spectroscopy",
+"13-4-chemical-shifts-in-1h-nmr-spectroscopy"
+],
+[
+"13.5",
+"Integration of 1H NMR Absorptions: Proton Counting",
+"13-5-integration-of-1h-nmr-absorptions-proton-counting"
+],
+[
+"13.6",
+"Spin\u2013Spin Splitting in 1H NMR Spectra",
+"13-6-spin-spin-splitting-in-1h-nmr-spectra"
+],
+[
+"13.7",
+"1H NMR Spectroscopy and Proton Equivalence",
+"13-7-1h-nmr-spectroscopy-and-proton-equivalence"
+],
+[
+"13.8",
+"More Complex Spin\u2013Spin Splitting Patterns",
+"13-8-more-complex-spin-spin-splitting-patterns"
+],
+[
+"13.9",
+"Uses of 1H NMR Spectroscopy",
+"13-9-uses-of-1h-nmr-spectroscopy"
+],
+[
+"13.10",
+"13C NMR Spectroscopy: Signal Averaging and FT\u2013NMR",
+"13-10-13c-nmr-spectroscopy-signal-averaging-and-ft-nmr"
+],
+[
+"13.11",
+"Characteristics of 13C NMR Spectroscopy",
+"13-11-characteristics-of-13c-nmr-spectroscopy"
+],
+[
+"13.12",
+"DEPT 13C NMR Spectroscopy",
+"13-12-dept-13c-nmr-spectroscopy"
+],
+[
+"13.13",
+"Uses of 13C NMR Spectroscopy",
+"13-13-uses-of-13c-nmr-spectroscopy"
+]
+]
+],
+[
+14,
+"Conjugated Compounds and Ultraviolet Spectroscopy",
+[
+[
+"14",
+"Why This Chapter?",
+"14-introduction"
+],
+[
+"14.1",
+"Stability of Conjugated Dienes: Molecular Orbital Theory",
+"14-1-stability-of-conjugated-dienes-molecular-orbital-theory"
+],
+[
+"14.2",
+"Electrophilic Additions to Conjugated Dienes: Allylic Carbocations",
+"14-2-electrophilic-additions-to-conjugated-dienes-allylic-carbocations"
+],
+[
+"14.3",
+"Kinetic versus Thermodynamic Control of Reactions",
+"14-3-kinetic-versus-thermodynamic-control-of-reactions"
+],
+[
+"14.4",
+"The Diels\u2013Alder Cycloaddition Reaction",
+"14-4-the-diels-alder-cycloaddition-reaction"
+],
+[
+"14.5",
+"Characteristics of the Diels\u2013Alder Reaction",
+"14-5-characteristics-of-the-diels-alder-reaction"
+],
+[
+"14.6",
+"Diene Polymers: Natural and Synthetic Rubbers",
+"14-6-diene-polymers-natural-and-synthetic-rubbers"
+],
+[
+"14.7",
+"Ultraviolet Spectroscopy",
+"14-7-ultraviolet-spectroscopy"
+],
+[
+"14.8",
+"Interpreting Ultraviolet Spectra: The Effect of Conjugation",
+"14-8-interpreting-ultraviolet-spectra-the-effect-of-conjugation"
+],
+[
+"14.9",
+"Conjugation, Color, and the Chemistry of Vision",
+"14-9-conjugation-color-and-the-chemistry-of-vision"
+]
+]
+],
+[
+15,
+"Benzene and Aromaticity",
+[
+[
+"15",
+"Why This Chapter?",
+"15-introduction"
+],
+[
+"15.1",
+"Naming Aromatic Compounds",
+"15-1-naming-aromatic-compounds"
+],
+[
+"15.2",
+"Structure and Stability of Benzene",
+"15-2-structure-and-stability-of-benzene"
+],
+[
+"15.3",
+"Aromaticity and the H\u00fcckel 4n + 2 Rule",
+"15-3-aromaticity-and-the-huckel-4n-2-rule"
+],
+[
+"15.4",
+"Aromatic Ions",
+"15-4-aromatic-ions"
+],
+[
+"15.5",
+"Aromatic Heterocycles: Pyridine and Pyrrole",
+"15-5-aromatic-heterocycles-pyridine-and-pyrrole"
+],
+[
+"15.6",
+"Polycyclic Aromatic Compounds",
+"15-6-polycyclic-aromatic-compounds"
+],
+[
+"15.7",
+"Spectroscopy of Aromatic Compounds",
+"15-7-spectroscopy-of-aromatic-compounds"
+]
+]
+],
+[
+16,
+"Chemistry of Benzene: Electrophilic Aromatic Substitution",
+[
+[
+"16",
+"Why This Chapter?",
+"16-introduction"
+],
+[
+"16.1",
+"Electrophilic Aromatic Substitution Reactions: Bromination",
+"16-1-electrophilic-aromatic-substitution-reactions-bromination"
+],
+[
+"16.2",
+"Other Aromatic Substitutions",
+"16-2-other-aromatic-substitutions"
+],
+[
+"16.3",
+"Alkylation and Acylation of Aromatic Rings: The Friedel\u2013Crafts Reaction",
+"16-3-alkylation-and-acylation-of-aromatic-rings-the-friedel-crafts-reaction"
+],
+[
+"16.4",
+"Substituent Effects in Electrophilic Substitutions",
+"16-4-substituent-effects-in-electrophilic-substitutions"
+],
+[
+"16.5",
+"Trisubstituted Benzenes: Additivity of Effects",
+"16-5-trisubstituted-benzenes-additivity-of-effects"
+],
+[
+"16.6",
+"Nucleophilic Aromatic Substitution",
+"16-6-nucleophilic-aromatic-substitution"
+],
+[
+"16.7",
+"Benzyne",
+"16-7-benzyne"
+],
+[
+"16.8",
+"Oxidation of Aromatic Compounds",
+"16-8-oxidation-of-aromatic-compounds"
+],
+[
+"16.9",
+"Reduction of Aromatic Compounds",
+"16-9-reduction-of-aromatic-compounds"
+],
+[
+"16.10",
+"Synthesis of Polysubstituted Benzenes",
+"16-10-synthesis-of-polysubstituted-benzenes"
+]
+]
+],
+[
+17,
+"Alcohols and Phenols",
+[
+[
+"17",
+"Why This Chapter?",
+"17-introduction"
+],
+[
+"17.1",
+"Naming Alcohols and Phenols",
+"17-1-naming-alcohols-and-phenols"
+],
+[
+"17.2",
+"Properties of Alcohols and Phenols",
+"17-2-properties-of-alcohols-and-phenols"
+],
+[
+"17.3",
+"Preparation of Alcohols: A Review",
+"17-3-preparation-of-alcohols-a-review"
+],
+[
+"17.4",
+"Alcohols from Carbonyl Compounds: Reduction",
+"17-4-alcohols-from-carbonyl-compounds-reduction"
+],
+[
+"17.5",
+"Alcohols from Carbonyl Compounds: Grignard Reaction",
+"17-5-alcohols-from-carbonyl-compounds-grignard-reaction"
+],
+[
+"17.6",
+"Reactions of Alcohols",
+"17-6-reactions-of-alcohols"
+],
+[
+"17.7",
+"Oxidation of Alcohols",
+"17-7-oxidation-of-alcohols"
+],
+[
+"17.8",
+"Protection of Alcohols",
+"17-8-protection-of-alcohols"
+],
+[
+"17.9",
+"Phenols and Their Uses",
+"17-9-phenols-and-their-uses"
+],
+[
+"17.10",
+"Reactions of Phenols",
+"17-10-reactions-of-phenols"
+],
+[
+"17.11",
+"Spectroscopy of Alcohols and Phenols",
+"17-11-spectroscopy-of-alcohols-and-phenols"
+]
+]
+],
+[
+18,
+"Ethers and Epoxides; Thiols and Sulfides",
+[
+[
+"18",
+"Why This Chapter?",
+"18-introduction"
+],
+[
+"18.1",
+"Names and Properties of Ethers",
+"18-1-names-and-properties-of-ethers"
+],
+[
+"18.2",
+"Preparing Ethers",
+"18-2-preparing-ethers"
+],
+[
+"18.3",
+"Reactions of Ethers: Acidic Cleavage",
+"18-3-reactions-of-ethers-acidic-cleavage"
+],
+[
+"18.4",
+"Cyclic Ethers: Epoxides",
+"18-4-cyclic-ethers-epoxides"
+],
+[
+"18.5",
+"Reactions of Epoxides: Ring-Opening",
+"18-5-reactions-of-epoxides-ring-opening"
+],
+[
+"18.6",
+"Crown Ethers",
+"18-6-crown-ethers"
+],
+[
+"18.7",
+"Thiols and Sulfides",
+"18-7-thiols-and-sulfides"
+],
+[
+"18.8",
+"Spectroscopy of Ethers",
+"18-8-spectroscopy-of-ethers"
+]
+]
+],
+[
+19,
+"Aldehydes and Ketones: Nucleophilic Addition Reactions",
+[
+[
+"19",
+"Why This Chapter?",
+"19-introduction"
+],
+[
+"19.1",
+"Naming Aldehydes and Ketones",
+"19-1-naming-aldehydes-and-ketones"
+],
+[
+"19.2",
+"Preparing Aldehydes and Ketones",
+"19-2-preparing-aldehydes-and-ketones"
+],
+[
+"19.3",
+"Oxidation of Aldehydes and Ketones",
+"19-3-oxidation-of-aldehydes-and-ketones"
+],
+[
+"19.4",
+"Nucleophilic Addition Reactions of Aldehydes and Ketones",
+"19-4-nucleophilic-addition-reactions-of-aldehydes-and-ketones"
+],
+[
+"19.5",
+"Nucleophilic Addition of H2O: Hydration",
+"19-5-nucleophilic-addition-of-h2o-hydration"
+],
+[
+"19.6",
+"Nucleophilic Addition of HCN: Cyanohydrin Formation",
+"19-6-nucleophilic-addition-of-hcn-cyanohydrin-formation"
+],
+[
+"19.7",
+"Nucleophilic Addition of Hydride and Grignard Reagents: Alcohol Formation",
+"19-7-nucleophilic-addition-of-hydride-and-grignard-reagents-alcohol-formation"
+],
+[
+"19.8",
+"Nucleophilic Addition of Amines: Imine and Enamine Formation",
+"19-8-nucleophilic-addition-of-amines-imine-and-enamine-formation"
+],
+[
+"19.9",
+"Nucleophilic Addition of Hydrazine: The Wolff\u2013Kishner Reaction",
+"19-9-nucleophilic-addition-of-hydrazine-the-wolff-kishner-reaction"
+],
+[
+"19.10",
+"Nucleophilic Addition of Alcohols: Acetal Formation",
+"19-10-nucleophilic-addition-of-alcohols-acetal-formation"
+],
+[
+"19.11",
+"Nucleophilic Addition of Phosphorus Ylides: The Wittig Reaction",
+"19-11-nucleophilic-addition-of-phosphorus-ylides-the-wittig-reaction"
+],
+[
+"19.12",
+"Biological Reductions",
+"19-12-biological-reductions"
+],
+[
+"19.13",
+"Conjugate Nucleophilic Addition to \u03b1,\u03b2\u2011Unsaturated Aldehydes and Ketones",
+"19-13-conjugate-nucleophilic-addition-to-ab-unsaturated-aldehydes-and-ketones"
+],
+[
+"19.14",
+"Spectroscopy of Aldehydes and Ketones",
+"19-14-spectroscopy-of-aldehydes-and-ketones"
+]
+]
+],
+[
+20,
+"Carboxylic Acids and Nitriles",
+[
+[
+"20",
+"Why This Chapter?",
+"20-introduction"
+],
+[
+"20.1",
+"Naming Carboxylic Acids and Nitriles",
+"20-1-naming-carboxylic-acids-and-nitriles"
+],
+[
+"20.2",
+"Structure and Properties of Carboxylic Acids",
+"20-2-structure-and-properties-of-carboxylic-acids"
+],
+[
+"20.3",
+"Biological Acids and the Henderson\u2013Hasselbalch Equation",
+"20-3-biological-acids-and-the-henderson-hasselbalch-equation"
+],
+[
+"20.4",
+"Substituent Effects on Acidity",
+"20-4-substituent-effects-on-acidity"
+],
+[
+"20.5",
+"Preparing Carboxylic Acids",
+"20-5-preparing-carboxylic-acids"
+],
+[
+"20.6",
+"Reactions of Carboxylic Acids: An Overview",
+"20-6-reactions-of-carboxylic-acids-an-overview"
+],
+[
+"20.7",
+"Chemistry of Nitriles",
+"20-7-chemistry-of-nitriles"
+],
+[
+"20.8",
+"Spectroscopy of Carboxylic Acids and Nitriles",
+"20-8-spectroscopy-of-carboxylic-acids-and-nitriles"
+]
+]
+],
+[
+21,
+"Carboxylic Acid Derivatives: Nucleophilic Acyl Substitution Reactions",
+[
+[
+"21",
+"Why This Chapter?",
+"21-introduction"
+],
+[
+"21.1",
+"Naming Carboxylic Acid Derivatives",
+"21-1-naming-carboxylic-acid-derivatives"
+],
+[
+"21.2",
+"Nucleophilic Acyl Substitution Reactions",
+"21-2-nucleophilic-acyl-substitution-reactions"
+],
+[
+"21.3",
+"Reactions of Carboxylic Acids",
+"21-3-reactions-of-carboxylic-acids"
+],
+[
+"21.4",
+"Chemistry of Acid Halides",
+"21-4-chemistry-of-acid-halides"
+],
+[
+"21.5",
+"Chemistry of Acid Anhydrides",
+"21-5-chemistry-of-acid-anhydrides"
+],
+[
+"21.6",
+"Chemistry of Esters",
+"21-6-chemistry-of-esters"
+],
+[
+"21.7",
+"Chemistry of Amides",
+"21-7-chemistry-of-amides"
+],
+[
+"21.8",
+"Chemistry of Thioesters and Acyl Phosphates: Biological Carboxylic Acid Derivatives",
+"21-8-chemistry-of-thioesters-and-acyl-phosphates-biological-carboxylic-acid-derivatives"
+],
+[
+"21.9",
+"Polyamides and Polyesters: Step-Growth Polymers",
+"21-9-polyamides-and-polyesters-step-growth-polymers"
+],
+[
+"21.10",
+"Spectroscopy of Carboxylic Acid Derivatives",
+"21-10-spectroscopy-of-carboxylic-acid-derivatives"
+]
+]
+],
+[
+22,
+"Carbonyl Alpha-Substitution Reactions",
+[
+[
+"22",
+"Why This Chapter?",
+"22-introduction"
+],
+[
+"22.1",
+"Keto\u2013Enol Tautomerism",
+"22-1-keto-enol-tautomerism"
+],
+[
+"22.2",
+"Reactivity of Enols: \u03b1-Substitution Reactions",
+"22-2-reactivity-of-enols-a-substitution-reactions"
+],
+[
+"22.3",
+"Alpha Halogenation of Aldehydes and Ketones",
+"22-3-alpha-halogenation-of-aldehydes-and-ketones"
+],
+[
+"22.4",
+"Alpha Bromination of Carboxylic Acids",
+"22-4-alpha-bromination-of-carboxylic-acids"
+],
+[
+"22.5",
+"Acidity of Alpha Hydrogen Atoms: Enolate Ion Formation",
+"22-5-acidity-of-alpha-hydrogen-atoms-enolate-ion-formation"
+],
+[
+"22.6",
+"Reactivity of Enolate Ions",
+"22-6-reactivity-of-enolate-ions"
+],
+[
+"22.7",
+"Alkylation of Enolate Ions",
+"22-7-alkylation-of-enolate-ions"
+]
+]
+],
+[
+23,
+"Carbonyl Condensation Reactions",
+[
+[
+"23",
+"Why This Chapter?",
+"23-introduction"
+],
+[
+"23.1",
+"Carbonyl Condensations: The Aldol Reaction",
+"23-1-carbonyl-condensations-the-aldol-reaction"
+],
+[
+"23.2",
+"Carbonyl Condensations versus Alpha Substitutions",
+"23-2-carbonyl-condensations-versus-alpha-substitutions"
+],
+[
+"23.3",
+"Dehydration of Aldol Products: Synthesis of Enones",
+"23-3-dehydration-of-aldol-products-synthesis-of-enones"
+],
+[
+"23.4",
+"Using Aldol Reactions in Synthesis",
+"23-4-using-aldol-reactions-in-synthesis"
+],
+[
+"23.5",
+"Mixed Aldol Reactions",
+"23-5-mixed-aldol-reactions"
+],
+[
+"23.6",
+"Intramolecular Aldol Reactions",
+"23-6-intramolecular-aldol-reactions"
+],
+[
+"23.7",
+"The Claisen Condensation Reaction",
+"23-7-the-claisen-condensation-reaction"
+],
+[
+"23.8",
+"Mixed Claisen Condensations",
+"23-8-mixed-claisen-condensations"
+],
+[
+"23.9",
+"Intramolecular Claisen Condensations: The Dieckmann Cyclization",
+"23-9-intramolecular-claisen-condensations-the-dieckmann-cyclization"
+],
+[
+"23.10",
+"Conjugate Carbonyl Additions: The Michael Reaction",
+"23-10-conjugate-carbonyl-additions-the-michael-reaction"
+],
+[
+"23.11",
+"Carbonyl Condensations with Enamines: The Stork Enamine Reaction",
+"23-11-carbonyl-condensations-with-enamines-the-stork-enamine-reaction"
+],
+[
+"23.12",
+"The Robinson Annulation Reaction",
+"23-12-the-robinson-annulation-reaction"
+],
+[
+"23.13",
+"Some Biological Carbonyl Condensation Reactions",
+"23-13-some-biological-carbonyl-condensation-reactions"
+]
+]
+],
+[
+24,
+"Amines and Heterocycles",
+[
+[
+"24",
+"Why This Chapter?",
+"24-introduction"
+],
+[
+"24.1",
+"Naming Amines",
+"24-1-naming-amines"
+],
+[
+"24.2",
+"Structure and Properties of Amines",
+"24-2-structure-and-properties-of-amines"
+],
+[
+"24.3",
+"Basicity of Amines",
+"24-3-basicity-of-amines"
+],
+[
+"24.4",
+"Basicity of Arylamines",
+"24-4-basicity-of-arylamines"
+],
+[
+"24.5",
+"Biological Amines and the Henderson\u2013Hasselbalch Equation",
+"24-5-biological-amines-and-the-henderson-hasselbalch-equation"
+],
+[
+"24.6",
+"Synthesis of Amines",
+"24-6-synthesis-of-amines"
+],
+[
+"24.7",
+"Reactions of Amines",
+"24-7-reactions-of-amines"
+],
+[
+"24.8",
+"Reactions of Arylamines",
+"24-8-reactions-of-arylamines"
+],
+[
+"24.9",
+"Heterocyclic Amines",
+"24-9-heterocyclic-amines"
+],
+[
+"24.10",
+"Spectroscopy of Amines",
+"24-10-spectroscopy-of-amines"
+]
+]
+],
+[
+25,
+"Biomolecules: Carbohydrates",
+[
+[
+"25",
+"Why This Chapter?",
+"25-introduction"
+],
+[
+"25.1",
+"Classification of Carbohydrates",
+"25-1-classification-of-carbohydrates"
+],
+[
+"25.2",
+"Representing Carbohydrate Stereochemistry: Fischer Projections",
+"25-2-representing-carbohydrate-stereochemistry-fischer-projections"
+],
+[
+"25.3",
+"D,L Sugars",
+"25-3-dl-sugars"
+],
+[
+"25.4",
+"Configurations of the Aldoses",
+"25-4-configurations-of-the-aldoses"
+],
+[
+"25.5",
+"Cyclic Structures of Monosaccharides: Anomers",
+"25-5-cyclic-structures-of-monosaccharides-anomers"
+],
+[
+"25.6",
+"Reactions of Monosaccharides",
+"25-6-reactions-of-monosaccharides"
+],
+[
+"25.7",
+"The Eight Essential Monosaccharides",
+"25-7-the-eight-essential-monosaccharides"
+],
+[
+"25.8",
+"Disaccharides",
+"25-8-disaccharides"
+],
+[
+"25.9",
+"Polysaccharides and Their Synthesis",
+"25-9-polysaccharides-and-their-synthesis"
+],
+[
+"25.10",
+"Some Other Important Carbohydrates",
+"25-10-some-other-important-carbohydrates"
+]
+]
+],
+[
+26,
+"Biomolecules: Amino Acids, Peptides, and Proteins",
+[
+[
+"26",
+"Why This Chapter?",
+"26-introduction"
+],
+[
+"26.1",
+"Structures of Amino Acids",
+"26-1-structures-of-amino-acids"
+],
+[
+"26.2",
+"Amino Acids and the Henderson\u2013Hasselbalch Equation: Isoelectric Points",
+"26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+],
+[
+"26.3",
+"Synthesis of Amino Acids",
+"26-3-synthesis-of-amino-acids"
+],
+[
+"26.4",
+"Peptides and Proteins",
+"26-4-peptides-and-proteins"
+],
+[
+"26.5",
+"Amino Acid Analysis of Peptides",
+"26-5-amino-acid-analysis-of-peptides"
+],
+[
+"26.6",
+"Peptide Sequencing: The Edman Degradation",
+"26-6-peptide-sequencing-the-edman-degradation"
+],
+[
+"26.7",
+"Peptide Synthesis",
+"26-7-peptide-synthesis"
+],
+[
+"26.8",
+"Automated Peptide Synthesis: The Merrifield Solid-Phase Method",
+"26-8-automated-peptide-synthesis-the-merrifield-solid-phase-method"
+],
+[
+"26.9",
+"Protein Structure",
+"26-9-protein-structure"
+],
+[
+"26.10",
+"Enzymes and Coenzymes",
+"26-10-enzymes-and-coenzymes"
+],
+[
+"26.11",
+"How Do Enzymes Work? Citrate Synthase",
+"26-11-how-do-enzymes-work-citrate-synthase"
+]
+]
+],
+[
+27,
+"Biomolecules: Lipids",
+[
+[
+"27",
+"Why This Chapter?",
+"27-introduction"
+],
+[
+"27.1",
+"Waxes, Fats, and Oils",
+"27-1-waxes-fats-and-oils"
+],
+[
+"27.2",
+"Soap",
+"27-2-soap"
+],
+[
+"27.3",
+"Phospholipids",
+"27-3-phospholipids"
+],
+[
+"27.4",
+"Prostaglandins and Other Eicosanoids",
+"27-4-prostaglandins-and-other-eicosanoids"
+],
+[
+"27.5",
+"Terpenoids",
+"27-5-terpenoids"
+],
+[
+"27.6",
+"Steroids",
+"27-6-steroids"
+],
+[
+"27.7",
+"Biosynthesis of Steroids",
+"27-7-biosynthesis-of-steroids"
+]
+]
+],
+[
+28,
+"Biomolecules: Nucleic Acids",
+[
+[
+"28",
+"Why This Chapter?",
+"28-introduction"
+],
+[
+"28.1",
+"Nucleotides and Nucleic Acids",
+"28-1-nucleotides-and-nucleic-acids"
+],
+[
+"28.2",
+"Base Pairing in DNA",
+"28-2-base-pairing-in-dna"
+],
+[
+"28.3",
+"Replication of DNA",
+"28-3-replication-of-dna"
+],
+[
+"28.4",
+"Transcription of DNA",
+"28-4-transcription-of-dna"
+],
+[
+"28.5",
+"Translation of RNA: Protein Biosynthesis",
+"28-5-translation-of-rna-protein-biosynthesis"
+],
+[
+"28.6",
+"DNA Sequencing",
+"28-6-dna-sequencing"
+],
+[
+"28.7",
+"DNA Synthesis",
+"28-7-dna-synthesis"
+],
+[
+"28.8",
+"The Polymerase Chain Reaction",
+"28-8-the-polymerase-chain-reaction"
+]
+]
+],
+[
+29,
+"The Organic Chemistry of Metabolic Pathways",
+[
+[
+"29",
+"Why This Chapter?",
+"29-introduction"
+],
+[
+"29.1",
+"An Overview of Metabolism and Biochemical Energy",
+"29-1-an-overview-of-metabolism-and-biochemical-energy"
+],
+[
+"29.2",
+"Catabolism of Triacylglycerols: The Fate of Glycerol",
+"29-2-catabolism-of-triacylglycerols-the-fate-of-glycerol"
+],
+[
+"29.3",
+"Catabolism of Triacylglycerols: \u03b2-Oxidation",
+"29-3-catabolism-of-triacylglycerols-b-oxidation"
+],
+[
+"29.4",
+"Biosynthesis of Fatty Acids",
+"29-4-biosynthesis-of-fatty-acids"
+],
+[
+"29.5",
+"Catabolism of Carbohydrates: Glycolysis",
+"29-5-catabolism-of-carbohydrates-glycolysis"
+],
+[
+"29.6",
+"Conversion of Pyruvate to Acetyl CoA",
+"29-6-conversion-of-pyruvate-to-acetyl-coa"
+],
+[
+"29.7",
+"The Citric Acid Cycle",
+"29-7-the-citric-acid-cycle"
+],
+[
+"29.8",
+"Carbohydrate Biosynthesis: Gluconeogenesis",
+"29-8-carbohydrate-biosynthesis-gluconeogenesis"
+],
+[
+"29.9",
+"Catabolism of Proteins: Deamination",
+"29-9-catabolism-of-proteins-deamination"
+],
+[
+"29.10",
+"Some Conclusions about Biological Chemistry",
+"29-10-some-conclusions-about-biological-chemistry"
+]
+]
+],
+[
+30,
+"Orbitals and Organic Chemistry: Pericyclic Reactions",
+[
+[
+"30",
+"Why This Chapter?",
+"30-introduction"
+],
+[
+"30.1",
+"Molecular Orbitals of Conjugated Pi Systems",
+"30-1-molecular-orbitals-of-conjugated-pi-systems"
+],
+[
+"30.2",
+"Electrocyclic Reactions",
+"30-2-electrocyclic-reactions"
+],
+[
+"30.3",
+"Stereochemistry of Thermal Electrocyclic Reactions",
+"30-3-stereochemistry-of-thermal-electrocyclic-reactions"
+],
+[
+"30.4",
+"Photochemical Electrocyclic Reactions",
+"30-4-photochemical-electrocyclic-reactions"
+],
+[
+"30.5",
+"Cycloaddition Reactions",
+"30-5-cycloaddition-reactions"
+],
+[
+"30.6",
+"Stereochemistry of Cycloadditions",
+"30-6-stereochemistry-of-cycloadditions"
+],
+[
+"30.7",
+"Sigmatropic Rearrangements",
+"30-7-sigmatropic-rearrangements"
+],
+[
+"30.8",
+"Some Examples of Sigmatropic Rearrangements",
+"30-8-some-examples-of-sigmatropic-rearrangements"
+],
+[
+"30.9",
+"A Summary of Rules for Pericyclic Reactions",
+"30-9-a-summary-of-rules-for-pericyclic-reactions"
+]
+]
+],
+[
+31,
+"Synthetic Polymers",
+[
+[
+"31",
+"Why This Chapter?",
+"31-introduction"
+],
+[
+"31.1",
+"Chain-Growth Polymers",
+"31-1-chain-growth-polymers"
+],
+[
+"31.2",
+"Stereochemistry of Polymerization: Ziegler\u2013Natta Catalysts",
+"31-2-stereochemistry-of-polymerization-ziegler-natta-catalysts"
+],
+[
+"31.3",
+"Copolymers",
+"31-3-copolymers"
+],
+[
+"31.4",
+"Step-Growth Polymers",
+"31-4-step-growth-polymers"
+],
+[
+"31.5",
+"Olefin Metathesis Polymerization",
+"31-5-olefin-metathesis-polymerization"
+],
+[
+"31.6",
+"Intramolecular Olefin Metathesis",
+"31-6-intramolecular-olefin-metathesis"
+],
+[
+"31.7",
+"Polymer Structure and Physical Properties",
+"31-7-polymer-structure-and-physical-properties"
+]
+]
+]
+],
+"psychology-2e": [
+[
+1,
+"Introduction to Psychology",
+[
+[
+"1",
+"Introduction",
+"1-introduction"
+],
+[
+"1.1",
+"What Is Psychology?",
+"1-1-what-is-psychology"
+],
+[
+"1.2",
+"History of Psychology",
+"1-2-history-of-psychology"
+],
+[
+"1.3",
+"Contemporary Psychology",
+"1-3-contemporary-psychology"
+],
+[
+"1.4",
+"Careers in Psychology",
+"1-4-careers-in-psychology"
+]
+]
+],
+[
+2,
+"Psychological Research",
+[
+[
+"2",
+"Introduction",
+"2-introduction"
+],
+[
+"2.1",
+"Why Is Research Important?",
+"2-1-why-is-research-important"
+],
+[
+"2.2",
+"Approaches to Research",
+"2-2-approaches-to-research"
+],
+[
+"2.3",
+"Analyzing Findings",
+"2-3-analyzing-findings"
+],
+[
+"2.4",
+"Ethics",
+"2-4-ethics"
+]
+]
+],
+[
+3,
+"Biopsychology",
+[
+[
+"3",
+"Introduction",
+"3-introduction"
+],
+[
+"3.1",
+"Human Genetics",
+"3-1-human-genetics"
+],
+[
+"3.2",
+"Cells of the Nervous System",
+"3-2-cells-of-the-nervous-system"
+],
+[
+"3.3",
+"Parts of the Nervous System",
+"3-3-parts-of-the-nervous-system"
+],
+[
+"3.4",
+"The Brain and Spinal Cord",
+"3-4-the-brain-and-spinal-cord"
+],
+[
+"3.5",
+"The Endocrine System",
+"3-5-the-endocrine-system"
+]
+]
+],
+[
+4,
+"States of Consciousness",
+[
+[
+"4",
+"Introduction",
+"4-introduction"
+],
+[
+"4.1",
+"What Is Consciousness?",
+"4-1-what-is-consciousness"
+],
+[
+"4.2",
+"Sleep and Why We Sleep",
+"4-2-sleep-and-why-we-sleep"
+],
+[
+"4.3",
+"Stages of Sleep",
+"4-3-stages-of-sleep"
+],
+[
+"4.4",
+"Sleep Problems and Disorders",
+"4-4-sleep-problems-and-disorders"
+],
+[
+"4.5",
+"Substance Use and Abuse",
+"4-5-substance-use-and-abuse"
+],
+[
+"4.6",
+"Other States of Consciousness",
+"4-6-other-states-of-consciousness"
+]
+]
+],
+[
+5,
+"Sensation and Perception",
+[
+[
+"5",
+"Introduction",
+"5-introduction"
+],
+[
+"5.1",
+"Sensation versus Perception",
+"5-1-sensation-versus-perception"
+],
+[
+"5.2",
+"Waves and Wavelengths",
+"5-2-waves-and-wavelengths"
+],
+[
+"5.3",
+"Vision",
+"5-3-vision"
+],
+[
+"5.4",
+"Hearing",
+"5-4-hearing"
+],
+[
+"5.5",
+"The Other Senses",
+"5-5-the-other-senses"
+],
+[
+"5.6",
+"Gestalt Principles of Perception",
+"5-6-gestalt-principles-of-perception"
+]
+]
+],
+[
+6,
+"Learning",
+[
+[
+"6",
+"Introduction",
+"6-introduction"
+],
+[
+"6.1",
+"What Is Learning?",
+"6-1-what-is-learning"
+],
+[
+"6.2",
+"Classical Conditioning",
+"6-2-classical-conditioning"
+],
+[
+"6.3",
+"Operant Conditioning",
+"6-3-operant-conditioning"
+],
+[
+"6.4",
+"Observational Learning (Modeling)",
+"6-4-observational-learning-modeling"
+]
+]
+],
+[
+7,
+"Thinking and Intelligence",
+[
+[
+"7",
+"Introduction",
+"7-introduction"
+],
+[
+"7.1",
+"What Is Cognition?",
+"7-1-what-is-cognition"
+],
+[
+"7.2",
+"Language",
+"7-2-language"
+],
+[
+"7.3",
+"Problem Solving",
+"7-3-problem-solving"
+],
+[
+"7.4",
+"What Are Intelligence and Creativity?",
+"7-4-what-are-intelligence-and-creativity"
+],
+[
+"7.5",
+"Measures of Intelligence",
+"7-5-measures-of-intelligence"
+],
+[
+"7.6",
+"The Source of Intelligence",
+"7-6-the-source-of-intelligence"
+]
+]
+],
+[
+8,
+"Memory",
+[
+[
+"8",
+"Introduction",
+"8-introduction"
+],
+[
+"8.1",
+"How Memory Functions",
+"8-1-how-memory-functions"
+],
+[
+"8.2",
+"Parts of the Brain Involved with Memory",
+"8-2-parts-of-the-brain-involved-with-memory"
+],
+[
+"8.3",
+"Problems with Memory",
+"8-3-problems-with-memory"
+],
+[
+"8.4",
+"Ways to Enhance Memory",
+"8-4-ways-to-enhance-memory"
+]
+]
+],
+[
+9,
+"Lifespan Development",
+[
+[
+"9",
+"Introduction",
+"9-introduction"
+],
+[
+"9.1",
+"What Is Lifespan Development?",
+"9-1-what-is-lifespan-development"
+],
+[
+"9.2",
+"Lifespan Theories",
+"9-2-lifespan-theories"
+],
+[
+"9.3",
+"Stages of Development",
+"9-3-stages-of-development"
+],
+[
+"9.4",
+"Death and Dying",
+"9-4-death-and-dying"
+]
+]
+],
+[
+10,
+"Emotion and Motivation",
+[
+[
+"10",
+"Introduction",
+"10-introduction"
+],
+[
+"10.1",
+"Motivation",
+"10-1-motivation"
+],
+[
+"10.2",
+"Hunger and Eating",
+"10-2-hunger-and-eating"
+],
+[
+"10.3",
+"Sexual Behavior, Sexuality, and Gender Identity",
+"10-3-sexual-behavior-sexuality-and-gender-identity"
+],
+[
+"10.4",
+"Emotion",
+"10-4-emotion"
+]
+]
+],
+[
+11,
+"Personality",
+[
+[
+"11",
+"Introduction",
+"11-introduction"
+],
+[
+"11.1",
+"What Is Personality?",
+"11-1-what-is-personality"
+],
+[
+"11.2",
+"Freud and the Psychodynamic Perspective",
+"11-2-freud-and-the-psychodynamic-perspective"
+],
+[
+"11.3",
+"Neo-Freudians: Adler, Erikson, Jung, and Horney",
+"11-3-neo-freudians-adler-erikson-jung-and-horney"
+],
+[
+"11.4",
+"Learning Approaches",
+"11-4-learning-approaches"
+],
+[
+"11.5",
+"Humanistic Approaches",
+"11-5-humanistic-approaches"
+],
+[
+"11.6",
+"Biological Approaches",
+"11-6-biological-approaches"
+],
+[
+"11.7",
+"Trait Theorists",
+"11-7-trait-theorists"
+],
+[
+"11.8",
+"Cultural Understandings of Personality",
+"11-8-cultural-understandings-of-personality"
+],
+[
+"11.9",
+"Personality Assessment",
+"11-9-personality-assessment"
+]
+]
+],
+[
+12,
+"Social Psychology",
+[
+[
+"12",
+"Introduction",
+"12-introduction"
+],
+[
+"12.1",
+"What Is Social Psychology?",
+"12-1-what-is-social-psychology"
+],
+[
+"12.2",
+"Self-presentation",
+"12-2-self-presentation"
+],
+[
+"12.3",
+"Attitudes and Persuasion",
+"12-3-attitudes-and-persuasion"
+],
+[
+"12.4",
+"Conformity, Compliance, and Obedience",
+"12-4-conformity-compliance-and-obedience"
+],
+[
+"12.5",
+"Prejudice and Discrimination",
+"12-5-prejudice-and-discrimination"
+],
+[
+"12.6",
+"Aggression",
+"12-6-aggression"
+],
+[
+"12.7",
+"Prosocial Behavior",
+"12-7-prosocial-behavior"
+]
+]
+],
+[
+13,
+"Industrial-Organizational Psychology",
+[
+[
+"13",
+"Introduction",
+"13-introduction"
+],
+[
+"13.1",
+"What Is Industrial and Organizational Psychology?",
+"13-1-what-is-industrial-and-organizational-psychology"
+],
+[
+"13.2",
+"Industrial Psychology: Selecting and Evaluating Employees",
+"13-2-industrial-psychology-selecting-and-evaluating-employees"
+],
+[
+"13.3",
+"Organizational Psychology: The Social Dimension of Work",
+"13-3-organizational-psychology-the-social-dimension-of-work"
+],
+[
+"13.4",
+"Human Factors Psychology and Workplace Design",
+"13-4-human-factors-psychology-and-workplace-design"
+]
+]
+],
+[
+14,
+"Stress, Lifestyle, and Health",
+[
+[
+"14",
+"Introduction",
+"14-introduction"
+],
+[
+"14.1",
+"What Is Stress?",
+"14-1-what-is-stress"
+],
+[
+"14.2",
+"Stressors",
+"14-2-stressors"
+],
+[
+"14.3",
+"Stress and Illness",
+"14-3-stress-and-illness"
+],
+[
+"14.4",
+"Regulation of Stress",
+"14-4-regulation-of-stress"
+],
+[
+"14.5",
+"The Pursuit of Happiness",
+"14-5-the-pursuit-of-happiness"
+]
+]
+],
+[
+15,
+"Psychological Disorders",
+[
+[
+"15",
+"Introduction",
+"15-introduction"
+],
+[
+"15.1",
+"What Are Psychological Disorders?",
+"15-1-what-are-psychological-disorders"
+],
+[
+"15.2",
+"Diagnosing and Classifying Psychological Disorders",
+"15-2-diagnosing-and-classifying-psychological-disorders"
+],
+[
+"15.3",
+"Perspectives on Psychological Disorders",
+"15-3-perspectives-on-psychological-disorders"
+],
+[
+"15.4",
+"Anxiety Disorders",
+"15-4-anxiety-disorders"
+],
+[
+"15.5",
+"Obsessive-Compulsive and Related Disorders",
+"15-5-obsessive-compulsive-and-related-disorders"
+],
+[
+"15.6",
+"Trauma- and Stressor-Related Disorders",
+"15-6-trauma-and-stressor-related-disorders"
+],
+[
+"15.7",
+"Depressive, Bipolar, and Related Disorders",
+"15-7-depressive-bipolar-and-related-disorders"
+],
+[
+"15.8",
+"Schizophrenia",
+"15-8-schizophrenia"
+],
+[
+"15.9",
+"Dissociative Disorders",
+"15-9-dissociative-disorders"
+],
+[
+"15.10",
+"Disorders in Childhood",
+"15-10-disorders-in-childhood"
+],
+[
+"15.11",
+"Personality Disorders",
+"15-11-personality-disorders"
+]
+]
+],
+[
+16,
+"Therapy and Treatment",
+[
+[
+"16",
+"Introduction",
+"16-introduction"
+],
+[
+"16.1",
+"Mental Health Treatment: Past and Present",
+"16-1-mental-health-treatment-past-and-present"
+],
+[
+"16.2",
+"Types of Treatment",
+"16-2-types-of-treatment"
+],
+[
+"16.3",
+"Treatment Modalities",
+"16-3-treatment-modalities"
+],
+[
+"16.4",
+"Substance-Related and Addictive Disorders: A Special Case",
+"16-4-substance-related-and-addictive-disorders-a-special-case"
+],
+[
+"16.5",
+"The Sociocultural Model and Therapy Utilization",
+"16-5-the-sociocultural-model-and-therapy-utilization"
+]
+]
+]
+],
+"introduction-sociology-3e": [
+[
+1,
+"An Introduction to Sociology",
+[
+[
+"1",
+"Introduction",
+"1-introduction"
+],
+[
+"1.1",
+"What Is Sociology?",
+"1-1-what-is-sociology"
+],
+[
+"1.2",
+"The History of Sociology",
+"1-2-the-history-of-sociology"
+],
+[
+"1.3",
+"Theoretical Perspectives in Sociology",
+"1-3-theoretical-perspectives-in-sociology"
+],
+[
+"1.4",
+"Why Study Sociology?",
+"1-4-why-study-sociology"
+]
+]
+],
+[
+2,
+"Sociological Research",
+[
+[
+"2",
+"Introduction",
+"2-introduction"
+],
+[
+"2.1",
+"Approaches to Sociological Research",
+"2-1-approaches-to-sociological-research"
+],
+[
+"2.2",
+"Research Methods",
+"2-2-research-methods"
+],
+[
+"2.3",
+"Ethical Concerns",
+"2-3-ethical-concerns"
+]
+]
+],
+[
+3,
+"Culture",
+[
+[
+"3",
+"Introduction",
+"3-introduction"
+],
+[
+"3.1",
+"What Is Culture?",
+"3-1-what-is-culture"
+],
+[
+"3.2",
+"Elements of Culture",
+"3-2-elements-of-culture"
+],
+[
+"3.3",
+"High, Low, Pop, Sub, Counter-culture and Cultural Change",
+"3-3-high-low-pop-sub-counter-culture-and-cultural-change"
+],
+[
+"3.4",
+"Theoretical Perspectives on Culture",
+"3-4-theoretical-perspectives-on-culture"
+]
+]
+],
+[
+4,
+"Society and Social Interaction",
+[
+[
+"4",
+"Introduction",
+"4-introduction"
+],
+[
+"4.1",
+"Types of Societies",
+"4-1-types-of-societies"
+],
+[
+"4.2",
+"Theoretical Perspectives on Society",
+"4-2-theoretical-perspectives-on-society"
+],
+[
+"4.3",
+"Social Constructions of Reality",
+"4-3-social-constructions-of-reality"
+]
+]
+],
+[
+5,
+"Socialization",
+[
+[
+"5",
+"Introduction",
+"5-introduction"
+],
+[
+"5.1",
+"Theories of Self-Development",
+"5-1-theories-of-self-development"
+],
+[
+"5.2",
+"Why Socialization Matters",
+"5-2-why-socialization-matters"
+],
+[
+"5.3",
+"Agents of Socialization",
+"5-3-agents-of-socialization"
+],
+[
+"5.4",
+"Socialization Across the Life Course",
+"5-4-socialization-across-the-life-course"
+]
+]
+],
+[
+6,
+"Groups and Organization",
+[
+[
+"6",
+"Introduction",
+"6-introduction"
+],
+[
+"6.1",
+"Types of Groups",
+"6-1-types-of-groups"
+],
+[
+"6.2",
+"Group Size and Structure",
+"6-2-group-size-and-structure"
+],
+[
+"6.3",
+"Formal Organizations",
+"6-3-formal-organizations"
+]
+]
+],
+[
+7,
+"Deviance, Crime, and Social Control",
+[
+[
+"7",
+"Introduction",
+"7-introduction"
+],
+[
+"7.1",
+"Deviance and Control",
+"7-1-deviance-and-control"
+],
+[
+"7.2",
+"Theoretical Perspectives on Deviance and Crime",
+"7-2-theoretical-perspectives-on-deviance-and-crime"
+],
+[
+"7.3",
+"Crime and the Law",
+"7-3-crime-and-the-law"
+]
+]
+],
+[
+8,
+"Media and Technology",
+[
+[
+"8",
+"Introduction",
+"8-introduction"
+],
+[
+"8.1",
+"Technology Today",
+"8-1-technology-today"
+],
+[
+"8.2",
+"Media and Technology in Society",
+"8-2-media-and-technology-in-society"
+],
+[
+"8.3",
+"Global Implications of Media and Technology",
+"8-3-global-implications-of-media-and-technology"
+],
+[
+"8.4",
+"Theoretical Perspectives on Media and Technology",
+"8-4-theoretical-perspectives-on-media-and-technology"
+]
+]
+],
+[
+9,
+"Social Stratification in the United States",
+[
+[
+"9",
+"Introduction",
+"9-introduction"
+],
+[
+"9.1",
+"What Is Social Stratification?",
+"9-1-what-is-social-stratification"
+],
+[
+"9.2",
+"Social Stratification and Mobility in the United States",
+"9-2-social-stratification-and-mobility-in-the-united-states"
+],
+[
+"9.3",
+"Global Stratification and Inequality",
+"9-3-global-stratification-and-inequality"
+],
+[
+"9.4",
+"Theoretical Perspectives on Social Stratification",
+"9-4-theoretical-perspectives-on-social-stratification"
+]
+]
+],
+[
+10,
+"Global Inequality",
+[
+[
+"10",
+"Introduction",
+"10-introduction"
+],
+[
+"10.1",
+"Global Stratification and Classification",
+"10-1-global-stratification-and-classification"
+],
+[
+"10.2",
+"Global Wealth and Poverty",
+"10-2-global-wealth-and-poverty"
+],
+[
+"10.3",
+"Theoretical Perspectives on Global Stratification",
+"10-3-theoretical-perspectives-on-global-stratification"
+]
+]
+],
+[
+11,
+"Race and Ethnicity",
+[
+[
+"11",
+"Introduction",
+"11-introduction"
+],
+[
+"11.1",
+"Racial, Ethnic, and Minority Groups",
+"11-1-racial-ethnic-and-minority-groups"
+],
+[
+"11.2",
+"Theoretical Perspectives on Race and Ethnicity",
+"11-2-theoretical-perspectives-on-race-and-ethnicity"
+],
+[
+"11.3",
+"Prejudice, Discrimination, and Racism",
+"11-3-prejudice-discrimination-and-racism"
+],
+[
+"11.4",
+"Intergroup Relationships",
+"11-4-intergroup-relationships"
+],
+[
+"11.5",
+"Race and Ethnicity in the United States",
+"11-5-race-and-ethnicity-in-the-united-states"
+]
+]
+],
+[
+12,
+"Gender, Sex, and Sexuality",
+[
+[
+"12",
+"Introduction",
+"12-introduction"
+],
+[
+"12.1",
+"Sex, Gender, Identity, and Expression",
+"12-1-sex-gender-identity-and-expression"
+],
+[
+"12.2",
+"Gender and Gender Inequality",
+"12-2-gender-and-gender-inequality"
+],
+[
+"12.3",
+"Sexuality",
+"12-3-sexuality"
+]
+]
+],
+[
+13,
+"Aging and the Elderly",
+[
+[
+"13",
+"Introduction",
+"13-introduction"
+],
+[
+"13.1",
+"Who Are the Elderly? Aging in Society",
+"13-1-who-are-the-elderly-aging-in-society"
+],
+[
+"13.2",
+"The Process of Aging",
+"13-2-the-process-of-aging"
+],
+[
+"13.3",
+"Challenges Facing the Elderly",
+"13-3-challenges-facing-the-elderly"
+],
+[
+"13.4",
+"Theoretical Perspectives on Aging",
+"13-4-theoretical-perspectives-on-aging"
+]
+]
+],
+[
+14,
+"Relationships, Marriage, and Family",
+[
+[
+"14",
+"Introduction",
+"14-introduction"
+],
+[
+"14.1",
+"What Is Marriage? What Is a Family?",
+"14-1-what-is-marriage-what-is-a-family"
+],
+[
+"14.2",
+"Variations in Family Life",
+"14-2-variations-in-family-life"
+],
+[
+"14.3",
+"Challenges Families Face",
+"14-3-challenges-families-face"
+]
+]
+],
+[
+15,
+"Religion",
+[
+[
+"15",
+"Introduction",
+"15-introduction"
+],
+[
+"15.1",
+"The Sociological Approach to Religion",
+"15-1-the-sociological-approach-to-religion"
+],
+[
+"15.2",
+"World Religions",
+"15-2-world-religions"
+],
+[
+"15.3",
+"Religion in the United States",
+"15-3-religion-in-the-united-states"
+]
+]
+],
+[
+16,
+"Education",
+[
+[
+"16",
+"Introduction",
+"16-introduction"
+],
+[
+"16.1",
+"Education around the World",
+"16-1-education-around-the-world"
+],
+[
+"16.2",
+"Theoretical Perspectives on Education",
+"16-2-theoretical-perspectives-on-education"
+],
+[
+"16.3",
+"Issues in Education",
+"16-3-issues-in-education"
+]
+]
+],
+[
+17,
+"Government and Politics",
+[
+[
+"17",
+"Introduction",
+"17-introduction"
+],
+[
+"17.1",
+"Power and Authority",
+"17-1-power-and-authority"
+],
+[
+"17.2",
+"Forms of Government",
+"17-2-forms-of-government"
+],
+[
+"17.3",
+"Politics in the United States",
+"17-3-politics-in-the-united-states"
+],
+[
+"17.4",
+"Theoretical Perspectives on Government and Power",
+"17-4-theoretical-perspectives-on-government-and-power"
+]
+]
+],
+[
+18,
+"Work and the Economy",
+[
+[
+"18",
+"Introduction to Work and the Economy",
+"18-introduction"
+],
+[
+"18.1",
+"Economic Systems",
+"18-1-economic-systems"
+],
+[
+"18.2",
+"Globalization and the Economy",
+"18-2-globalization-and-the-economy"
+],
+[
+"18.3",
+"Work in the United States",
+"18-3-work-in-the-united-states"
+]
+]
+],
+[
+19,
+"Health and Medicine",
+[
+[
+"19",
+"Introduction",
+"19-introduction"
+],
+[
+"19.1",
+"The Social Construction of Health",
+"19-1-the-social-construction-of-health"
+],
+[
+"19.2",
+"Global Health",
+"19-2-global-health"
+],
+[
+"19.3",
+"Health in the United States",
+"19-3-health-in-the-united-states"
+],
+[
+"19.4",
+"Comparative Health and Medicine",
+"19-4-comparative-health-and-medicine"
+],
+[
+"19.5",
+"Theoretical Perspectives on Health and Medicine",
+"19-5-theoretical-perspectives-on-health-and-medicine"
+]
+]
+],
+[
+20,
+"Population, Urbanization, and the Environment",
+[
+[
+"20",
+"Introduction",
+"20-introduction"
+],
+[
+"20.1",
+"Demography and Population",
+"20-1-demography-and-population"
+],
+[
+"20.2",
+"Urbanization",
+"20-2-urbanization"
+],
+[
+"20.3",
+"The Environment and Society",
+"20-3-the-environment-and-society"
+]
+]
+],
+[
+21,
+"Social Movements and Social Change",
+[
+[
+"21",
+"Introduction to Social Movements and Social Change",
+"21-introduction"
+],
+[
+"21.1",
+"Collective Behavior",
+"21-1-collective-behavior"
+],
+[
+"21.2",
+"Social Movements",
+"21-2-social-movements"
+],
+[
+"21.3",
+"Social Change",
+"21-3-social-change"
+]
+]
+]
+]
+}
